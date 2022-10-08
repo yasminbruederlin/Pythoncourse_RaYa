@@ -1,0 +1,649 @@
+{
+  "course_version" : 1,
+  "environment" : "unittest",
+  "summary" : "In diesem Kurs behanden wir\n\n- Basics in Pycharm\n- Variablen\n- Kommentare\n- Bedingungen \n\ngl & hf! (:",
+  "title" : "FMS IPR Python 1",
+  "programming_language" : "Python",
+  "language" : "en",
+  "course_type" : "Marketplace",
+  "vendor" : {
+    "name" : "Raphaelkubler"
+  },
+  "items" : [
+    {
+      "id" : 1816375858,
+      "title" : "Erste Schritte",
+      "task_list" : [
+        {
+          "id" : 2020436934,
+          "name" : "Willkommen",
+          "files" : {
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "rDQJ+rHSd4gR1sB5GyqVOQ=="
+            },
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eferBCJRUpIZ4ayufvWxuSzxvyxK+MoYXDHuKgRndPzeWOcgf5SO3cVD3zPdivgZIMESQ2CAPk33TSQEYpkPjg=="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "# Willkommen\n\n\nPython ist eine Programmiersprache. Wie andere Sprachen auch, bietet sie uns die Möglichkeit, Ideen zu kommunizieren.\n Im Falle einer Programmiersprache sind diese Ideen \"Befehle\", mit denen Menschen mit einem Computer kommunizieren.\n\nWir übermitteln unsere Befehle an den Computer, indem wir sie mit einer Programmiersprache in eine Textdatei schreiben.\n Diese Dateien werden Programme genannt. Ein Programm auszuführen bedeutet, den Computer anzuweisen, die Textdatei zu\n lesen, sie in eine Reihe von Operationen zu übersetzen, die er versteht, und diese Aktionen auszuführen.\n\n\n## Code Ausführen\n\n\nUm ihren Code auszuführen, klicken Sie in der ersten Zeile auf das grüne Dreieck.\n\n![](run.png)\n  \n\n## Aufgabe Überprüfen\n\n\nWenn Sie eine Aufgabe gelöst haben, können Sie diese kontrollieren lassen. Dafür klicken Sie auf das Feld \"Check\"\n unterhalb des Textes.\n\n![](check.png)\n  \n\n## Aufgabe\n\n\nErsetzen Sie im Programm auf der rechten Seite den Text `Tschüss` durch `Willkommen`.",
+          "description_format" : "MD",
+          "task_type" : "output"
+        },
+        {
+          "id" : 317062788,
+          "name" : "Print",
+          "files" : {
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "hSZkLxENJwijjf/YojlonQ=="
+            },
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eferBCJRUpIZ4ayufvWxuWrBZmK6TKQctwAe5ytqCnkeaFcLE2GBr/ZOfCGo7jXN7CS3Dc7t/FfngtrQTwhODbjb1eEDBzavQG7GYUVnoAc="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "# Print\n\n\nJetzt wollen wir unserem Computer beibringen zu kommunizieren. Die Gabe der Sprache ist wertvoll: Ein Computer kann\n uns viele Fragen über das \"Wie\" oder \"Warum\" oder \"Was\" beantworten, das er tut. In Python wird die Funktion print()\n verwendet, um einen Computer zum Sprechen zu bringen. Die zu druckende Nachricht sollte von Anführungszeichen\n umgeben sein:\n  \n````python\n`# Ein Zitat von René Descartes`\n`print(\"Ich denke, also bin ich.\")`\n````\n\n\nIm obigen Beispiel möchten wir, dass unser Programm ein Zitat *printed*. Die\n Wörter, welche als Ergebnis der Funktion print() erscheinen, werden als Ausgabe bezeichnet. Die Ausgabe dieses\n Beispielprogramms würde folgendermassen aussehen:\n\n## Aufgabe\n\n\nSchreiben Sie ein Programm, das `Hello world!` ausgibt.",
+          "description_format" : "MD",
+          "task_type" : "output"
+        },
+        {
+          "id" : 739691641,
+          "name" : "Kommentare",
+          "files" : {
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "wGa9dMBkrjgPnwMjsGxAwA=="
+            },
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eferBCJRUpIZ4ayufvWxuSzxvyxK+MoYXDHuKgRndPyHNaB9AhbclD5W5DfRCKOOqq5YoVksafK3N6R6NX6PfcYNDAEuH2pmoYGv+bVQIdryJPjmuqmIYRf0Bdc5CG51"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "\"/Users/raphaelkubler/OneDrive - DIG-IT Produktive Umgebung/Unterricht/Informatikprojekte/PycharmSchool/FMS IPR Python 1/.idea/VirtualEnvironment/bin/python\" \"/Users/raphaelkubler/Library/CloudStorage/OneDrive-DIG-ITProduktiveUmgebung/Unterricht/Informatikprojekte/PycharmSchool/FMS IPR Python 1/lesson1/Programmierumgebung/task.py\"\n\n\n# Kommentare\n\n\nIronischerweise werden Sie als erstes sehen, wie man einen Computer anweist, einen Teil eines Programms zu\n ignorieren. In einem Programm geschriebener Text, der vom Computer nicht ausgeführt werden soll, wird Kommentar\n genannt. Python interpretiert alles nach einem `#` als Kommentar. \n\n\nKommentare können:\n\n\n- Erklären wieso etwas so gemacht wurde.\n\n  \n````python\n`# Diese Variable brauchen wir um zu zählen wie oft HalaMadrid getweeted wird.`\n`halamadrid_count = 0`\n````\n\n\n- Anderen Personen helfen den Code schneller zu verstehen.\n\n  \n````python\n`# Diese Funktion berechnet die Wahrscheinlichkeit mit der es morgen regnen wird.`\n`komplizierte_regenrechnung_für_morgen()`\n````\n\n  \n\n  \n\n- Eine Programmzeile ignorieren, um zu sehen, was ohne Sie passiert.\n\n  \n````python\n`# nützliche_variable = alter_code()`\n`nützliche_variable = neuer_code()`\n````\n\n\n\n## Aufgabe\n\n\nVerwandeln Sie den zweiten print-Befehl Zeile in einen Kommentar.\n\n",
+          "description_format" : "MD",
+          "task_type" : "output"
+        },
+        {
+          "id" : 1112475521,
+          "name" : "Strings",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eferBCJRUpIZ4ayufvWxuWrBZmK6TKQctwAe5ytqCnkeaFcLE2GBr/ZOfCGo7jXN7CS3Dc7t/FfngtrQTwhODbjb1eEDBzavQG7GYUVnoAc="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "# String\n\n\nProgrammierer bezeichnen Textblöcke als Strings. In der letzten Aufgabe haben Sie den String \"Hello world!\"\n erstellt. In Python wird ein String entweder von doppelten Anführungszeichen (\"Hello world\") oder von einfachen\n Anführungszeichen ('Hello world') umgeben. Es spielt dabei keine Rolle, welche der beiden Optionen Sie verwenden.\n Sie sollten aber immer die Gleiche verwenden.\n\n## Aufgabe\nGeben Sie Ihren Namen mit Hilfe von `print()` aus. Diese Aufgabe wird nicht überprüft.",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 1374644053,
+          "name" : "Variablen",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eferBCJRUpIZ4ayufvWxuWrBZmK6TKQctwAe5ytqCnm40cc4M4p0nk7c+Xo87KM5tm8RTVTuU2wdc+1zyfpxQ/MuyDVE7RYgJzWOb/SmbapeL10S1Me24ajHqKoWeX1bx3c2XNP1MvOa0podUH2LibEYhIwwU2sFVBlWGsIAa3XJZP3d4wLhETuuH6IaG6OaeEe+l2r3Y7ioJk4RP8DlkP8TcdILsoDrTxFBypKBoVb8cR+NsrwmXpBZlZKAuM8nxVg/biUulkdrKjtvJg7awO9KVMlVAxXUYyhSaZWEBcY6kkmEYVyy2x6H9sIX+9tRHZ52zcIhgouLM9zacM2goFdsN+DugRdd55spAF+NALpxa/kKT7Fz+pG/bnUOYeXVn0Qd1THvUxqrShzTxnw/aykFRImEAhaEgnp+LfQi+LQqabgCURbys44fnRB4e04Jj7PABDGzY9bv+QbiTIevfzJMUlrcpBfu8h5kmO92I8WOPH5N222Kob4BkfDEIKJcQRiwqEbn9z8Y6/TIKZipGPpvt7isQohc00VyeOM+yuq9mUHB9ZmWbwtJuMSPlH86Zpn51mIxj7MaNpHa537BD8j7K6160bbB788aDVGiAwcRx/nIH2inBnHUMQDZjHkZWOLAmSCRQsAY7homJl1ziA=="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "# Variablen\n\n\nProgrammiersprachen bieten Ihnen die Möglichkeit Daten zu speichern, damit Sie diese später wiederverwenden können.\n Wenn Sie sich also beispielsweise ein Datum, ein Name oder eine Benutzer-ID merken müssen, können Sie einfach eine\n Variable erstellen, die diesen Wert speichert. In Python weisen wir Variablen mit dem Gleichheitszeichen\n `(=)` zu.\n\n\n  \n\n`nachricht = \"Hallihallo\"`\n  \n\n  \n\nIn obigen Beispiel wurde die Nachricht `\"Hallihallo\"` in einer Variable mit dem Namen\n `nachricht` gespeichert. Variablen dürfen außer einem Unterstrich (`_`) keine Leerzeichen oder Symbole in\n ihrem Namen enthalten. Sie dürfen ausserdem nicht mit Zahlen beginnen, aber sie können Zahlen nach dem ersten\n Buchstaben haben (z. B. `coole_variable_1337`). \n\n\n  \n\nEs ist kein Zufall, dass wir diese Dinge \"Variablen\" nennen. Wir können den gespeicherten Wert einer Variable\n nämlich jederzeit aktualisieren (der Wert ist also **variabel**).\n\n\n  \n````python\n`# Begrüssung`\n`nachricht = \"Hallihallo\"`\n`print(nachricht)`\n\n`# Verabschiedung`\n`nachricht = \"Hasta la vista\"`\n`print(nachricht)`\n````\n\n  \n\n  \n\nOben wurde der Variable `nachricht` zuerst eine Begrüssung zugewiesen und anschliessend ausgegeben.\n Danach wurde der Wert der Variable aktualisiert und erneut ausgegeben.\n\n\n## Aufgabe\n\n\nAktualisieren Sie die Variable `essen`, um die verschiedenen Mahlzeiten des Tages auszugeben.\nDiese Aufgabe wird nicht überprüft.",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        }
+      ],
+      "type" : "lesson"
+    },
+    {
+      "id" : 280988913,
+      "title" : "Zahlentypen und Fehlermeldungen",
+      "task_list" : [
+        {
+          "id" : 1982648007,
+          "name" : "Zahlenvariablen",
+          "files" : {
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "mKul4tYUCKqvDoba+Srp8g=="
+            },
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eferBCJRUpIZ4ayufvWxuWrBZmK6TKQctwAe5ytqCnkeaFcLE2GBr/ZOfCGo7jXN7CS3Dc7t/FfngtrQTwhODbjb1eEDBzavQG7GYUVnoAc="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "# Zahlenvariablen\n\n\nVariablen, denen numerische Werte zugewiesen sind, können genauso behandelt werden wie die Zahlen selbst. Zwei Variablen können addiert, durch 2 geteilt und mit einer dritten Variable multipliziert werden, ohne dass Python zwischen den Variablen und den Literalen (wie der Zahl 2 in diesem Beispiel) unterscheidet. Wenn Sie mit Variablen rechnen, wird die Variable nicht verändert - Sie können eine Variable nur mit dem Zeichen = aktualisieren.\n\n```python\nnr_people = 100\nprice_entry = 15\n\n# printed 1'500\nprint(nr_people * price_entry)\n\n# printed 100 und 15\nprint(nr_people)\nprint(price_entry)\n\n# Preiserhöhung $$$\nprice_entry = 20\n\n# printed ?\nprint(nr_people * price_entry)\n\n# printed 100 und 20\nprint(nr_people)\nprint(price_entry)\n```\n\n  \n\nIm oberen Beispiel wurden zwei Variablen erstellt, die Zahlen speichern. Wenn wir eine Berechnung durchführen, werden\n die Variablen nicht aktualisiert! Wenn wir die Variable `price_entry` verändern und die Berechnungen\n erneut durchführen, werden die aktualisierten Werte für die Variablen verwendet!\n\n\n\n## Aufgabe\n\n\nErstellen Sie die Variablen `price_pizza` und `nr_orders`. Printen Sie die Kosten, wenn eine\nPizza 18 CHF kostet und Sie 7 Bestellungen haben.",
+          "description_format" : "MD",
+          "task_type" : "output"
+        },
+        {
+          "id" : 1281735820,
+          "name" : "Zahlentypen",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eferBCJRUpIZ4ayufvWxuWrBZmK6TKQctwAe5ytqCnkeaFcLE2GBr/ZOfCGo7jXN7CS3Dc7t/FfngtrQTwhODbjb1eEDBzavQG7GYUVnoAc="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "# Zahlentypen\n\n\nComputer können viel mehr als nur Zeichenketten von Text verstehen. Zum Beispiel kann Python mit verschiedenen\n Zahlentypen umgehen. Welchen Datentypen Sie verwenden, hängt davon ab, welchen Zweck Sie mit der zu speichernden Zahl verfolgen.\n  \n\n  \n\nEin **Integer**, oder `int`, ist eine ganze Zahl. Sie hat keinen Dezimalpunkt und enthält alle natürlichen\n Zahlen (1, 2, 3, ...) sowie ihre negativen Gegenstücke und die Zahl 0. Wenn Sie die Anzahl der Personen in einem Raum,\n die Anzahl der Gummibärchen in einem Glas oder die Anzahl der Tasten auf einer Tastatur zählen wollen, würden Sie\n wahrscheinlich Integer verwenden.\n  \n\n  \n\n Eine **Gleitkommazahl** wird `float` genannt und ist eine Dezimalzahl. Wenn Sie die Länge Ihrer Schlafzimmerwand\n messen, die durchschnittliche Seitenzahl ihres Lieblingsmangas berechnen oder die durchschnittliche Anzahl geschossener Tore\n speichern möchten, würden Sie wahrscheinlich eine Gleitkommazahl verwenden.\n  \n\n  \n\nZahlen können Variablen zugewiesen oder direkt in einem Programm verwendet werden:\n\n````python\nan_int = 3\na_float = 3.14\n\n# printed 5\nprint(an_int + 2)\n````\n\n Oben haben wir eine ganze Zahl (Integer) und eine Gleitkommazahl (Float) als die Variablen `an_int` und `a_float`\n definiert. Wir haben die Summe der Variablen `an_int` und 3 geprinted. \n\n## Aufgaben\n\nEin Kinobesuch hat Sie dazu gebracht, eine Rezension zu veröffentlichen. Sie stürmen aus dem Kino und beginnen eilig mit\nder Programmierung Ihrer Website für Filmkritiken: *The Big Screen's Greatest Scenes Decided By A Machine*.\n\n1. Erstellen Sie die folgenden Variablen und weisen Sie ihnen ganzzahlige Werte zu: `release_year` und `runtime`.\n\n2. Erstellen Sie nun die Variable `rating_out_of_10` und weisen Sie ihr eine Gleitkommazahl zwischen 1 und 10 zu.\n\n3. Addieren Sie die Zahlen, was für einen Zahlentyp hat das Ergebnis?\n\nDiese Aufgaben werden nicht überprüft.\n",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 1713024922,
+          "name" : "Verkettung von Strings",
+          "files" : {
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "DAjf8M9QlVEkixASuzbMbyMP0GODM+Zv/7QVb1d039k="
+            },
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eferBCJRUpIZ4ayufvWxuWrBZmK6TKQctwAe5ytqCnkeaFcLE2GBr/ZOfCGo7jXN+Nr5T5L8dL7L38qc4s0MX+42wrPflsD8LaBfISKU4SAAAyAwSbcQVHi+60aHvf5zS1jCe1Mj38Nb1L6j6j3ZscEqYPNHWsEJmvtIV2NIn7y7cW/x8K2cxUyevebq3IBX4BxkA3iGaqlhvXwFFYfcsw=="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "\n# Verkettung von Strings\n\n\nDer Operator `+` kann nicht nur zwei Zahlen addieren, sondern auch zwei Strings! Dieser Vorgang wird als\n **Verkettung von Strings** bezeichnet. Dabei wird ein neuer String erstellt, die aus dem Inhalt des ersten Strings\n und dem Inhalt des zweiten Strings besteht (ohne dazwischen liegende Leerzeichen).\n\n   \n\n  \n````python\ngreeting = \"Hallo\"\nquestion = \"Wie geht es dir?\"\ntext = greeting + question\n\n# printed \"Hallo!Wie geht es dir?\"\nprint(text)\n````\n  \n\n\nIn diesem Codebeispiel fehlt ein Leerzeichen zwischen den beiden Strings.\n Wir können das Leerzeichen wieder mit dem `+` Operator hinzufügen.\n\n````python\ngreeting = \"Hallo\"\nquestion = \"Wie geht es dir?\"\ntext = greeting + \" \" + question\n\n# printed \"Hallo! Wie geht es dir?\"\nprint(text)\n````\n\nJetzt printed der Code die erwartete Nachricht.\n  \n\n  \n\nWenn wir einen String mit einer Zahl verknüpfen wollen, müssen wir zuerst die Zahl in einen String umwandeln.\n Dafür verwenden wir die Funktion `str()`.\n   \n```python\nfirst = \"Ich bin heute\"\nage = 17\nsecond = \"Jahre alt!\"\n\n# Verkettung von Strings mit einer Zahl\ntext = first + \" \" + str(age) + \" \" + second\n\n# printed \"Ich bin heute 17 Jahre alt!\nprint(text)\n```\n\nWenn wir eine Zahlenvariable zusammen mit Strings nur printen möchten, können wir dies mit der Hilfe von Kommas machen.\n\n```python\nfirst = \"Ich bin heute\"\nage = 17\nsecond = \"Jahre alt!\"\n\n# printed \"Ich bin heute 17 Jahre alt!\nprint(\"first\", age, \"second\")\n\n```\n  \n\nWenn wir nur eine ganze Zahl ausgeben wollen\nkönnen wir eine Variable als Argument an print() übergeben, unabhängig davon, ob es ein String ist.\n\n\n\n\n## Aufgabe\n\n\nVerketten Sie die Strings und speichern Sie die Nachricht, die sie bilden, in der Variablen `message`. Printen Sie\n den Inhalt der Variable `message`\n\n\n\n",
+          "description_format" : "MD",
+          "task_type" : "output"
+        },
+        {
+          "id" : 398017353,
+          "name" : "User Input",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eferBCJRUpIZ4ayufvWxuWrBZmK6TKQctwAe5ytqCnkeaFcLE2GBr/ZOfCGo7jXN7CS3Dc7t/FfngtrQTwhODbjb1eEDBzavQG7GYUVnoAc="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "# User-Input\n\n\nBisher haben wir gelernt, wie man einer Variablen direkt einen Wert zuweist. Oft möchte man jedoch,\n dass der Benutzer eines Programms neue Informationen in das Programm eingibt.\n\nIhre nächste Aufgabe ist es, herauszufinden wie das funktioniert. Testen Sie also Ihre Google-Skills und finden Sie\n den korrekten Python-Befehl dafür.\n\n\n\n\n## Aufgabe\n\n\n1. Schreiben Sie ein kleines Programm, dass die Eingabe des Benutzers verwendet!",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 133430671,
+          "name" : "Rechnen mit Python",
+          "files" : {
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "kTWtaMPKLXmelXyRyb/P8lqNTjB2FwfQjW/xN7eWoCw="
+            },
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eferBCJRUpIZ4ayufvWxuWrBZmK6TKQctwAe5ytqCnkeaFcLE2GBr/ZOfCGo7jXN7CS3Dc7t/FfngtrQTwhODbjb1eEDBzavQG7GYUVnoAc="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "# Rechnungen\n\n\nComputer sind hervorragend im Rechnen. Die Übersetzung *Rechner* kommt daher,\n dass sie historisch gesehen Antworten auf mathematische Fragen liefern. Python führt Addition, Subtraktion,\n Multiplikation und Division mit `+`, `-`, `*` und `/` durch.\n\n```python\n# printed \"300\"\nprint(371-73+2)\n\n# printed \"80\"\nprint(2*40)\n\n# printed \"2.0\"\nprint(10/5)\n```\n  \n\nBeachten Sie, dass bei der Division das Ergebnis eine Nachkommastelle hat. Das liegt daran, dass Python alle Ints in Floats\n umwandelt, bevor es die Division durchführt.\n   \n\n  \n\n\n Die Division kann einen eigenen speziellen Fehler auslösen: `ZeroDivisionError`. Dieser tritt auf , wenn\n versucht wird, durch 0 zu dividieren.\n\n\n\n## Aufgabe\n\n\nPrinten Sie das Resultat der Rechnung `25*68+13/28`.\n\n",
+          "description_format" : "MD",
+          "task_type" : "output"
+        },
+        {
+          "id" : 1712566305,
+          "name" : "Plus-Gleich",
+          "files" : {
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "E6Qj1BSO+kNFNpm9INgqFA=="
+            },
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eferBCJRUpIZ4ayufvWxuWrBZmK6TKQctwAe5ytqCnnWCkagmqAy6l0vAdgF9D2H4nKjpQweCWa07x/z5Xlk4jrLbzYoElCQSI3lmVeVBwytzhApaM0r0eZAXLsK2/SQ8LRPfUG7pnW9QlzFD4N5Er7gM+VHt1kdxFPNMI/0pyfQP3kvtP2tuc/GeMzsSI8KgWQa7J2UbSFUCSwDlssr5jDsvu7OURRn0+grkTta17YC4DVU9Mb+i1jwfZQaya3QM9fCsk8HuuifC4T5TPSYkT+xS4g9dkABxQW6nxDYvJ8X/af2l846KeiMdcUj9HeqWzPYpxY9/7ZkCEYV5YGIYi8dtLhF8m885ACVYFP5tsKAVf3hr8u8QuYb7aWh5P3PCIS0Q3jhfDdFZE6Hy8hlmA=="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "# Plus-Gleich\n\n\nPython bietet eine Kurzform für die Aktualisierung von Variablen. Wenn Sie eine Zahl in einer Variablen gespeichert haben und zum aktuellen Wert der Variablen addieren wollen, können Sie den Operator += (plus-gleich) verwenden.\n\n   \n\n  \n```python\n# Zuerst weisen wir der Variablen einen Startwert zu.\nnr_hiked_km = 12\n\n# Dann verändern wir den Wert der Variablen.\n# Nehmen wir an, dass wir 2 weitere Kilometer \n# gewandert sind.\nnr_hiked_km += 2\n\n# Der neue Wert ist der alte Wert\n# plus die Zahl nach dem Plus-Gleich-Zeichen.\n# printed \"14\"\nprint(nr_hiked_km)\n```\n\n  \n\nDie Variable oben speichert die Anzahl Kilometer, die eine Person im Laufe der Zeit gewandert ist. Anstatt den Wert der\n Variable jeweils neu zu berechnen, können wir den alten Wert einfach aktualisieren.\n\n   \n\n  \n\n\nDer Plus-Gleich-Operator kann auch für die Verkettung von Strings verwendet werden:\n\n```python\nhike_caption = \"Was für eine tolle Zeit, um durch die Natur zu wandern!\"\n\n# Fast hätte ich die Hashtags vergessen! #Boomer\nhike_caption += \" #nofilter\"\nhike_caption += \" #blessed\"\n```\n\n   \n\n\n\n## Aufgabe\n\n\nSie sind gerade beim Online-Shopping und finden ein Paar neue Turnschuhe. Kurz bevor wir Sie zum Checkout gehen,\n entdecken Sie einen schönen Pullover und ein paar tolle Bücher, die Sie auch kaufen wollen.\n\n   \n\n  \n\n\n 1. Verwenden Sie den `+=`-Operator, um die Variable `total_price` zu aktualisieren und die Preise\n von `nice_sweater` und `fun_books` dazuzurechnen. Printen Sie anschliessend das Ergebnis.\n \n\n2. **Bonus:** Ist das Resultat ein `int` oder ein `float`?\n\n",
+          "description_format" : "MD",
+          "task_type" : "output"
+        },
+        {
+          "id" : 1430697222,
+          "name" : "Modulo",
+          "files" : {
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "qQkBIfYQhtpNT7QVomJkqA=="
+            },
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eferBCJRUpIZ4ayufvWxuWrBZmK6TKQctwAe5ytqCnkeaFcLE2GBr/ZOfCGo7jXNONqF2hEuofvkpIYB3Hw8iAr10xhJKNTvQ+bVjywHHKebHimROpkNh6MPbKjhWgnU"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "# Modulo\n\n\nEine wichtiger Bestandteil von Python ist der **Modulo-Operator**. Wir verwenden ihn mit dem Zeichen `%`.\n Er gibt den Rest einer Divisionsberechnung an.\n\n```python\n# printed \"3\" da 23/5 = 3 mit Rest 1\nprint(23 % 5)\n\n# Mit modulo können wir herausfinden, ob eine ganze \n# Zahl gerade oder ungerade ist.\n# Wenn das Ergebnis 0 ist, ist die Zahl gerade.\n# Wenn das Ergebnis 1 ist, ist die Zahl ungerade.\n# printed 0, da 42 gerade ist\nprint(42 % 2)\n```\n  \n\n\nDer Modulo-Operator ist in der Programmierung sehr nützlich. Wir brauchen ihn zum Beispiel, wenn wir eine Aktion nur jedes\n n-te Mal durchführen wollen, wenn der Code ausgeführt wird.\n\n\n\n## Aufgabe\n\n\nSie versuchen, eine Gruppe in vier Teams aufzuteilen. \nSie nummerieren die Personen durch und erhalten für sich die Zahl 27. \n\n1. Finden Sie heraus in welchem Team Sie landen und speichern Sie den Wert in `my_team`. Printen Sie das Ergebnis.\n\n2. **Bonus:** Kann das Ergebnis einer Modulo-Operation grösser als der Teiler sein?",
+          "description_format" : "MD",
+          "task_type" : "output"
+        },
+        {
+          "id" : 146278380,
+          "name" : "Fehlermeldungen",
+          "files" : {
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "PqtgHM+EesVt7eidlWtCGnsW0VfWZhN6GTMiAUxZdpj/krvOe7s3EiMHDt76xXRpaN9S3x96FsWl1/Zm3o+HwdNehll/a+DSUtfK0JdpNHvdORXcYyRmkk0Q1U2t4b5z"
+            },
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eferBCJRUpIZ4ayufvWxuSzxvyxK+MoYXDHuKgRndPzQeTJ9b+5iNWrIuqDPuu4KMukCqFg6OmArKVYjEGG/Z7USm9qo0dstGbjHdGT2mbQSrF1RnaaNMcQyab73waJEVF0f1YmYCWg1460GSrqVNpeGApbfnnMFDrxEgM6YWP2URyTXdleTyo1ok54VRW9UxDu5+vDxsS0d0o1IOZFSnA=="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "# Fehlermeldungen\n\n\nMenschen neigen dazu, Fehler zu machen. Beim Programmieren werden Sie merken, dass dies sogar ziemlich oft der Fall ist.\n Glücklicherweise versuchen Programmiersprachen, die in ihren Programmen gemachten Fehler zu verstehen und zu erklären.\n  \n\n Python bezeichnet diese Fehler als **errors** und verweist mit einem `^`-Zeichen auf die Stelle, an\n der ein Fehler aufgetreten ist. Wenn Programme Fehler auslösen, die wir nicht erwartet haben, nennen wir diese Fehler\n **Bugs**. Programmierer bezeichnen das Fehlerbeheben in einem Programm deshalb auch als **debuggen**.\n  \n\n Zwei häufige Fehler, die beim Programmieren mit Python auftreten, sind `SyntaxError` und `NameError`.\n- `SyntaxError` bedeutet, dass etwas mit der Art und Weise, wie Ihr Programm geschrieben ist, nicht stimmt - Satzzeichen,\n die nicht dazugehören, ein Befehl, der nicht erwartet wird, oder eine fehlende Klammer können einen SyntaxError auslösen.\n   \n\nEin Syntaxfehler kann zum Beispiel auftreten, wenn Sie einen String mit doppelten Anführungszeichen beginnen und mit\n einem einfachen Anführungszeichen beenden.\n\n  \n\n- Ein `NameError` tritt auf, wenn der Python-Interpreter ein Wort sieht, das er nicht kennt. Code, der etwas enthält, das\n wie eine Variable aussieht, aber nie definiert wurde, löst einen `NameError` aus.\n   \n\n Ein `NameError` kann auftreten, wenn Sie versuchen, einen String zu printen, aber keine Anführungszeichen\n um den String setzen. Python denkt dann, dass der String eine Variable ist und versucht herauszufinden, wo diese definiert wurde.\nDa es aber keine Variable ist, wird keine Definition gefunden und der `NameError` tritt auf.\n\n\n\n\n## Aufgabe\n\n\nLassen Sie das Programm laufen und korrigieren Sie anschliessend die Fehler.",
+          "description_format" : "MD",
+          "task_type" : "output"
+        }
+      ],
+      "type" : "lesson"
+    },
+    {
+      "id" : 1706099694,
+      "title" : "Bedingungen",
+      "task_list" : [
+        {
+          "id" : 1800844415,
+          "name" : "Kontrollfluss",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eferBCJRUpIZ4ayufvWxuWrBZmK6TKQctwAe5ytqCnkeaFcLE2GBr/ZOfCGo7jXN7CS3Dc7t/FfngtrQTwhODbjb1eEDBzavQG7GYUVnoAc="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "Einführung Kontrollfluss\n=============\n\nStellen Sie sich vor, Sie wachen am Morgen auf und denken: \"Ist heute ein Wochentag?\"\n\nWenn ja, müssen Sie aufstehen, sich anziehen und sich für die Schule fertig machen (wenn Sie Glück haben ist es Donnerstag \noder Freitag und Sie dürfen Ihr Wahlfach besuchen ;) ). Wenn nicht, können Sie noch ein bisschen länger schlafen. \nAber leider ist es ein Wochentag, also stehen Sie auf, ziehen sich an und gehen nach draußen: \"Wie ist das Wetter? \nBrauche ich einen Regenschirm?\"\n\nDiese Fragen und Entscheidungen steuern den Ablauf Ihres Morgens, jeder Schritt ist das Ergebnis der Bedingungen des \nTages und Ihrer Umgebung. Ihr Computer durchläuft jedes Mal, wenn er einen Code ausführt, einen ähnlichen Ablauf wie Sie. \nEin Programm wird gestartet (wacht auf) und beginnt, seine Checklisten durchzugehen: Ist diese Bedingung erfüllt, \nist jene Bedingung erfüllt, okay, führen wir diesen Code aus und geben diesen Wert zurück.\n\nDies nennt man den **Kontrollfluss** eines Programms. In Python wird Ihr Skript von oben nach unten ausgeführt, bis es \nnichts mehr auszuführen gibt. Es ist Ihre Aufgabe **Bedingungen**, einzufügen, um dem Computer mitzuteilen, wann \ner bestimmte Codeblöcke ausführen soll. Wenn diese Bedingungen erfüllt sind, führen Sie diese Funktion aus.\n\nIm Laufe dieser Lektion werden Sie lernen was Booleans sind, wie man sie zur Überprüfung von Bedingungen benutzt und\nwie Sie Bedingungen in Python erstellen.\n\n![alt text](flowchart.png \"Title\")\n<!---\n```puml\nstart\nif (Ist es ein Wochentag?) then (Ja)\n    :Steh auf;\n    if (Regnet es?) then (Ja)\n        :Nimm einen Regenschirm mit;\n    else (Nein)\n        :Du kannst ohne Regenschirm aus dem Haus;\n    endif\n    stop\nelse (Nein)\n    :Bleib liegen;\n    stop\nendif\n```\n-->\n\n",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 190366358,
+          "name" : "Boolesche Ausdrücke",
+          "files" : {
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eferBCJRUpIZ4ayufvWxuWrBZmK6TKQctwAe5ytqCnkeaFcLE2GBr/ZOfCGo7jXN7CS3Dc7t/FfngtrQTwhODbjb1eEDBzavQG7GYUVnoAc="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "Boolesche Ausdrücke\n=======\n\nUm einen Kontrollfluss in unser Programm einzubauen, müssen wir prüfen können, ob etwas wahr ist oder nicht. \nEin **boolescher Ausdruck** ist eine Aussage, die entweder **wahr** oder **falsch** sein kann.\n\nKehren wir zu dem Beispiel \"Aufwachen\" zurück. Die erste Frage, \"Ist heute ein Wochentag?\", kann folgendermassen\nals boolescher Ausdruck geschrieben werden:\n\n`Heute ist ein Wochentag.`\n\nDieser Ausdruck kann wahr sein, wenn heute Dienstag ist, oder er kann falsch sein, wenn heute Samstag ist. \nAndere Möglichkeiten gibt es nicht.\n\nAls nächstes Beispiel betrachten wir den Satz:\n\n`Freitag ist der beste Tag der Woche.`\n\nDies ist kein boolescher Audruck! Diese Aussage ist eine Meinung und ist nicht objektiv wahr oder falsch. Jemand anderes könnte sagen: \"Mittwoch ist der beste Wochentag\", und seine Aussage wäre nicht weniger wahr oder falsch als die obige.\n\nWie wäre es mit dem Satz:\n\n`Der Sonntag beginnt mit dem Buchstaben \"C\".`\n\nIst dies ein boolescher Ausdruck?\n\nJa! Dieser Ausdruck kann nur wahr oder falsch sein, was ihn zu einem booleschen Ausdruck macht. Auch wenn die Aussage selbst falsch ist (der Sonntag beginnt mit dem Buchstaben \"C\"), handelt es sich dennoch um einen booleschen Ausdruck.\n\n\nAufgabe\n------\n\nIst der folgende Satz ein boolescher Ausdruck?\n\n``Mein Axolotl heisst Nepomuk.``\n",
+          "description_format" : "MD",
+          "task_type" : "theory"
+        },
+        {
+          "id" : 1133978486,
+          "name" : "Vergleichsoperatoren",
+          "files" : {
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "O+53EwXQ6BLv2cFBZRVO5w=="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            },
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eferBCJRUpIZ4ayufvWxuVL7D1cZklLQx/eAF228gJle4RmopgcrmCOEKB0PmLq0r+fVpxbBdNIRX3Lc/PYNnAG/N3gFj7iKGrBa/U0SnCa3GTPp7rX+gj4yfDb/0M//amtF+h/GLrj/Bk26w0xe1YydbTaTzqiieRS4Szo6W0tF0eY6L7fXbCnheWKCWKPPH+C7JUaJrIdFFlPkpsJusviMV2wij3KgpP1aFMSX1Og5oh9gS7OFuNKZSEzKKmFn"
+            }
+          },
+          "description_text" : "Vergleichsoperatoren\n========\n\nWir wissen nun, was boolesche Ausdrücke sind. Als nächstes wollen wir lernen, wie man sie in Python erstellt. \n\nEinen booleschen Ausdruck erstellen wir, indem wir **Vergleichsoperatoren** verwenden.\nVergleichsoperatoren vergleichen zwei Elemente und geben entweder `True` oder `False` zurück. \n\nDie beiden Vergleichsoperatoren, die wir zuerst behandeln werden, sind:\n\n- Gleich: `==`\n- Ungleich: `!=`\n\n\nDiese Operatoren vergleichen zwei Elemente und geben `True` oder `False` zurück, wenn sie gleich oder ungleich sind.\n\nWir können boolesche Ausdrücke erstellen, indem wir zwei Werte mit diesen Operatoren vergleichen:\n\n```python\n1 == 1 # Wahr\n \n2 != 4 # Wahr\n \n3 == 5 # Falsch\n \n'7' == 7 # Falsch\n```\n\nJeder dieser Ausdrücke ist ein Beispiel für einen booleschen Ausdruck.\n\nWarum ist die letzte Aussage falsch? Durch die ''-Markierungen in '7' handelt es sich um einen String. Somit unterscheidet \ner sich vom Integer 7. Bei der Verwendung von Vergleichsoperatoren ist es also wichtig, immer auf den Typ zu achten.\n\nAufgabe\n----\n\nWeisen Sie den Variablen jeweils den Wert `True` oder `False`zu.\n\nStatement one:\n\n`(5 * 2) - 1 == 8 + 1`\n\nStatement two:\n\n`13 - 6 != (3 * 2) + 1`\n\nStatement three:\n\n`3 * (2 - 1) == 4 - 1`\n",
+          "description_format" : "MD",
+          "task_type" : "output"
+        },
+        {
+          "id" : 790886385,
+          "name" : "Booleans",
+          "files" : {
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "zPcTzS7xEbWXJ96WZSiqWJJUJLKXDPVspUSSxpmNr20="
+            },
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eferBCJRUpIZ4ayufvWxuWrBZmK6TKQctwAe5ytqCnkeaFcLE2GBr/ZOfCGo7jXN7CS3Dc7t/FfngtrQTwhODbjb1eEDBzavQG7GYUVnoAc="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "Booleans\n=======\n\nBevor wir fortfahren, sollten wir ein wenig über `True` und `False` sprechen. Wie Sie wahrscheinlich gemerkt haben, \nerscheinen die Ausdrücke bei der Eingabe im Code-Editor in einer anderen Farbe. Das liegt daran, dass `True` und `False` ein \neigener Typ sind: **Boolean** (kurz: bool).\n\n`True` und `False` sind die einzigen booleschen Typen. Eine Variable, der einer dieser Werte zugewiesen wurde, wird als Boolean\n bezeichnet.\n\nBooleans können auf verschiedene Weise erstellt werden. Der einfachste Weg ist, einer Variablen einfach `True` oder `False` zuzuweisen:\n\n````python\nset_to_true = True\nset_to_false = False\n````\n\nSie können auch eine Variable gleich einem booleschen Ausdruck setzen.\n```python\nbool_one = 5 != 7 \nbool_two = 1 + 1 != 2\nbool_three = 3 * 3 == 9\n```\n\nWenn Sie diese Variablen nun printen, erscheint jeweils der zugewiesene Boolean.\n\n```python\nprint(bool_one) # True\nprint(bool_two) # False\nprint(bool_three) # True\n```\n\nAufgabe\n------\n1. Erstellen Sie eine Variable `cool_bool` und weisen Sie ihr den Wert `\"true\"`zu.\n\n2. Printen Sie den Typen der Variablen indem Sie den Befehl `type(cool_bool)` verwenden.\n\nHoppla - es handelt sich nicht um einen Boolean! `True` und `False` müssen immer gross geschrieben werden und haben \n   keine Anführungszeichen!\n\n3. Erstellen Sie eine zweite Variable `cool_bool_two` und weisen Sie Ihr den Wert `True`zu.\n\n4. Printen Sie den Typen der neuen Variable.\n\n",
+          "description_format" : "MD",
+          "task_type" : "output"
+        },
+        {
+          "id" : 1904757542,
+          "name" : "If",
+          "files" : {
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "65Hjl6Zb77U5BMSYrkWvfnt96x2DxUZvCC/uUkJMyMQbBkLnrYLBTi+DJOSv1BlJ"
+            },
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eferBCJRUpIZ4ayufvWxuWrBZmK6TKQctwAe5ytqCnkeaFcLE2GBr/ZOfCGo7jXNdDxM3WxeUHu0ScpqpAVhbPcGJSjbBSJFs33+0gLLFPBK77rOGldJLwZYMuR81ULizmzR0AZn7zuyx4IO7O0CFOa0y/hFSxXn+AvBaaaFPzCFe0YshLYNa++yfdbKIiAY06QH8EMMUfcnbFuAgo4pfw10R13/9y8s56nQK16Z8ak="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "If\n=======\n\nDas Verständnis von Booleans und booleschen Ausdrücken ist enorm wichtig. Sie sind die Bausteine von jedem Code der mit\nBedingungen arbeitet (spoiler alert: (fast) jeder Code  arbeitet mit Bedingungen ;) )\n\nErinnern Sie sich an das Beispiel \"Aufwachen\" vom Anfang dieser Lektion. Der Entscheidungsprozess von \n\"Regnet es? Wenn ja, nimm einen Regenschirm mit\" ist eine bedingte Aussage.\n\nWir versuchen es einmal etwas anderst zu formulieren:\n\n````\nWenn es regnet, dann nimm einen Regenschirm mit.\n````\n\n\nKönnen Sie hier den booleschen Ausdruck erkennen?\n\nRichtig, `\"es regnet\"` ist der boolesche Ausdruck, und diese bedingte Aussage prüft, ob er wahr ist.\n\nWenn `\"es regnet\" == True` ist, wird der Rest der bedingten Anweisung ausgeführt und Sie bringen einen Regenschirm mit.\n\nDies ist die Form einer bedingten Anweisung:\n\n```\nWenn [es regnet], dann [bring einen Regenschirm mit]\n```\n\nIn Python sieht es ganz ähnlich aus:\n\n```python\nif is_raining:\n  print(\"Bring einen Regenschirm mit\")\n```\n\nSie werden feststellen, dass anstelle von \"dann\" ein Doppelpunkt steht, `:`. Der Doppelpunkt sagt dem Computer, dass das, \nwas als Nächstes kommt, ausgeführt werden soll, wenn die Bedingung erfüllt ist.\n\nSchauen wir uns eine weitere bedingte Anweisung an:\n\n```python\nif 2 == 4 - 2: \n  print(\"¯\\_(ツ)_/¯ \")\n ```\nWird dieser Code etwas printen?\n\n<div class=\"hint\">\n  Ja, denn die Bedingung der if-Anweisung, `2 == 4 - 2`, ist wahr.\n</div>\n\n\n\nAufgaben\n---------\n\nIn main.py ist ein If-statement. Das Skript wurde geschrieben, weil Naruto meinen Computer ständig unerlaubt \n   benutzt hat. Wenn `user_name` Naruto ist, sagt es ihm, dass er sich von meinem Computer \n   fernhalten soll.\n\n1. Geben Sie einen Benutzernamen in das Feld für `user_name` ein und versuchen Sie, das Programm auszuführen.\n\n\nSh*t! Wir haben einen `SyntaxError`! Das passiert, wenn wir einen kleinen Fehler in der Syntax der bedingten Anweisung machen.\n\n2. Lesen Sie die Fehlermeldung aufmerksam durch und versuchen Sie, den Fehler zu finden. Beheben Sie ihn dann und führen \n   Sie den Code erneut aus.\n\nNaruto ist doch cleverer als gedacht und ist meine Sicherheitsvorkehrungen umgangen und hat sich mit dem Benutzernamen \n   seiner Kollegin Sakura, sasuke_lover, angemeldet.\n\n3. Setzen Sie `user_name` auf sasuke_lover.\n\n4. Erstellen Sie eine zweite if-Anweisung, damit es auch Sakuras Benutzernamen überprüft und folgendes printed\n\n``\n\"Ich weiss, dass du es bist, Naruto!\"\n``\n\n\n",
+          "description_format" : "MD",
+          "task_type" : "output"
+        },
+        {
+          "id" : 1007254515,
+          "name" : "Vergleichsoperatoren 2.0",
+          "files" : {
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "p5/GCm8rGvBKQqKwAG1VWOXUiv78pmbqs6IcRgNhfWglRTEjksHY9nxpN4UJ434ezTX61xWhUO87QQG9cEySzLTO35fn8HuhoxJJWUeOEzYgVxcVLNbxnY1QOPPHFXgy"
+            },
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eferBCJRUpIZ4ayufvWxuSJV41L/aK3qw/fu7CmIcV19Nz9eXmdhUlM4lv29GZldwZn6kYleF5R1MnZ8/K1zxMexsvs0vJh301e5B3peRa2N9CsAh/VmS+jYbnIaeU2ROlx8GEC2rrG9pxSoRYa9C+fRlsNIJxVbrU/s0+oFlpTF0ZAfiTpJ5IbiAyZHdmGV"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "Vergleichsoperatoren 2.0\n===========\n\nBislang kennen wir zwei Vergleichsoperatoren, nämlich `=` und `!=`. Es gibt noch eine viiieeeel (na ja, vier) mehr:\n\n- `>` größer als\n- `>=` größer als oder gleich\n- `<` kleiner als\n- `<=` kleiner als oder gleich\n\nNehmen wir an, wir betreiben eine Streaming-Plattform. Nun wollen wir ein Programm schreiben, das überprüft, \nob unsere Benutzer über 13 Jahre alt sind, wenn wir ihnen einen Film ab 13 Jahren zeigen. \nWir könnten etwas schreiben wie:\n\n````python\nif age <= 13:\n  print(\"Du bist leider noch zu jung!\")\n````\n\nDiese Funktion vergleicht das Alter des Benutzers mit der Zahl 13. Wenn das Alter kleiner oder gleich 13 ist, \nwird eine Meldung ausgedruckt.\n\nAufgaben\n----------\n1. Erstellen Sie ein if-statement, die prüft, ob `x` und `y` gleich sind. Wenn dies der Fall ist printen Sie:\n\n> \"Die zwei Zahlen sind gleich.\"\n\n2. Die FMS verlangt von ihren Schüler:innen, dass Sie einen Notenschnitt von\nmindestens 4.0 erreichen, um abschliessen zu können. Schreiben Sie ein zweites if-statement,\n   das überprüft, ob der Notenschnitt für einen Abschluss reicht. Wenn ja, printen Sie:\n   \n> \"Bravo! Ihr Notenschnitt reicht für einen Abschluss.\"\n\n\n",
+          "description_format" : "MD",
+          "task_type" : "output"
+        },
+        {
+          "id" : 1182757783,
+          "name" : "And",
+          "files" : {
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "co2uZwwDG/HQ15NRZ0S3gjA9kKWvyz5PS/FRAU9SNGtimFOokOI2OGFFdj7rG8p4"
+            },
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eferBCJRUpIZ4ayufvWxueUjkTH5T6qLwkCIA8J/b3Q4jp5h3Gzf0MPBTimLDSJ5/OR2GRxcXeTKcKWMSxFfJeqefy79pg6RQAt0BZnnXJXoNaRFOwUzbPoep14SHew9rfSrO7xM8wX0A96LtWDNC/Yj3ENCm+pyv/2ioDjdf70="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "Boolesche Operatoren: And\n=========\n\nOft besteht eine Bedingung aus mehreren booleschen Ausdrücken. \nIn diesen Fällen können wir größere boolesche Ausdrücke mit Hilfe von **booleschen Operatoren** bilden. Diese fassen \nkleinere boolesche Ausdrücke zu größeren booleschen Ausdrücken zusammen.\n\nEs gibt drei boolesche Operatoren, die wir behandeln werden:\n\n- `and`\n- `or`\n- `not`\n\n`and` kombiniert zwei boolesche Ausdrücke und gibt `True` zurück, wenn beide Ausdrücke `True` sind. Sonst gibt es `False`zurück.\n\n> Orangen sind eine Frucht und Karotten sind ein Gemüse.\n\nDieser boolesche Ausdruck besteht aus zwei kleineren Ausdrücken, nämlich `Orangen sind eine Frucht` und `Karotten sind ein Gemüse`\nDa beide Ausdrücke wahr und durch den booleschen Operator `and` verbunden sind, ist der gesamte Ausdruck wahr.\n\nSchauen wir uns ein Beispiel für einige AND-Anweisungen in Python an:\n\n```python\n(1 + 1 == 2) und (2 + 2 == 4) # True\n \n(1 > 9) und (5 != 6) # False\n \n(1 + 1 == 2) und (2 < 1) # False\n \n(0 == 10) und (1 + 1 == 1) # False\n```\n\nIm zweiten und dritten Beispiel ist ein Teil des Ausdrucks wahr. Der gesamte Ausdruck ist aber \nfalsch, weil die andere Aussage falsch ist. Die vierte Aussage ist ebenfalls falsch, da beide Komponenten falsch sind.\n\nAufgabe\n--------\n\nKehren wir an die FMS zurück. Leider reicht es nicht, wenn man \"nur\" einen Notendurchschnitt von 4.0 besitzt.\nZusätzlich darf man auch nicht mehr als 20 unentschuldigte Versäumnisse besitzen.\n\n1. Passen Sie das if-statement so an, dass es auch die Versäumnisse in Betracht zieht. Falls beide Bedingungen erfüllt sind, printen Sie\n\n> \"Bravo! Sie erfüllen alle Anforderungen.\"\n\n",
+          "description_format" : "MD",
+          "task_type" : "output"
+        },
+        {
+          "id" : 1993578710,
+          "name" : "Or",
+          "files" : {
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "co2uZwwDG/HQ15NRZ0S3gpjE6DGKR7RFO9Ib4EojsKf7+na+QetBgkb56dPooJQy/2KWxJJR+BywH2N/qmmk8g=="
+            },
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eferBCJRUpIZ4ayufvWxueUjkTH5T6qLwkCIA8J/b3Rs0JaS/g/EqjjFKmyYuxfCUBKMRsaPAlrtMRlUB/vGTGaToYU+l29MeWlcx0VW6EE+5yVUE5lTwrlA5DzpQ+4N"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "Boolesche Operatoren: Or\n==============\n\n`or` ist ein weiterer **boolescher Operator**. Er kombiniert zwei Ausdrücke zu einem größeren Ausdruck, der wahr ist, \nwenn eine der Komponenten wahr ist.\n\n> Orangen sind Früchte oder Äpfel sind ein Gemüse.\n\nDiese Aussage besteht aus zwei Ausdrücken: `Orangen sind Früchte`, was Wahr ist, und `Äpfel sind ein Gemüse`, was Falsch ist. \nDa die beiden Ausdrücke durch `or` verbunden sind, ist die gesamte Aussage wahr. \n\nIn der deutschen Sprache impliziert ein oder, dass wenn eine Komponente wahr ist, die andere Komponente falsch sein muss. \nDas ist in Python nicht der Fall. Wenn eine `or`-Anweisung aus zwei `True`-Komponenten hat, ist sie auch `True`.\n\n```python\nTrue or (3 + 4 == 7) # True\n(1 - 1 == 0) or False # True\n(2 < 0) or True # True\n(3 == 8) or (3 > 4) # False\n```\n\nAufgabe\n------\n\n1. Die FMS hat die Abschlussbedingungen milder gestaltet. Nun reicht es aus, nur eine der beiden Bedingungen\nzu erfüllen. Schreiben Sie ein passendes if-statement dazu. Falls es wahr ist printen Sie:\n   \n> \"Bravo! Sie erfüllen mindestens eine Bedingung.\"\n",
+          "description_format" : "MD",
+          "task_type" : "output"
+        },
+        {
+          "id" : 1160854609,
+          "name" : "Not",
+          "files" : {
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "uTxJkBVs7lW2yR0Kbij3Bhv8dPI+wRQTCuRH7dxJviPTv4VZ0qvGT8m4YOH8Sso8ueQpY/J57hBjhzKRL3JtYCaMQfmkiqToPbWcREX3vzaI7p1XNPMgIl/noOcZ86WegrpfF2GZ952p4ukqVxU4KfJq6+SK50J+5rY+GY+TV8PdIt/z6fp+6H7o90PaG0cIj/R3Mqg+W7unQN+0sEo8LHYtlrtA8u1sKHuorkY2b0lbUp9uKRUZcy4ymPgVR7xCOn1mFlVLgK6FP9RjiQhjuzb8TBn3MyTJO5jPX4YO+QoEQLlt1oGnri2gI3kSJUHz"
+            },
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eferBCJRUpIZ4ayufvWxufa1kJpe7+i9+Ed+EbUvns0pJ7f3Z3ORb+tTEtscW4V+y5bxWr9zTjCvTgd5BOTzk54TreH4P2J1oUjoM3ogQO8Wda+gzHdXDZPUCWz+vbP9"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "Boolesche Operatoren: Not\n==============\n\n`not` ist ganz einfach: Wenn er auf einen beliebigen booleschen Ausdruck angewendet wird, kehrt er den booleschen Wert um. \nWenn wir ihn also vor einen Ausdruck, der `True` zurückgibt, setzen, erhalten wir einen `False`.\n\n```python\nnot True == False\nnot False == True\n```\n\nBetrachten wir die folgenden Beispiele:\n\n```python\nnot 1 + 1 == 2 # False\nnot 7 < 0 # True\n```\n\nWichtig: `not` steht immer vor dem Ausdruck!\n\nAufgabe\n---------\n\nDie Schulleitung hat von Ihren Programmierskills erfahren und ist beeindruckt. Sie möchte, dass Sie Ihr Skript folgendermassen \nanpassen.\n\n1. Wenn eine Schüler:in **nicht** einen Notendurchschnitt von 4.0 oder höher hat, printen Sie:\n\n> \"Ihr Notendurchschnitt reicht leider nicht für einen Abschluss aus.\"\n\n2. Wenn eine Schüler:in **nicht** weniger als 20 unentschuldigte Versäumnisse besitzt, printen Sie:\n\n> \"Sie haben leider zu viele unentschuldigte Versäumnisse, um an der FMS abzuschliessen.\"\n\n3. Wenn Sie beide Bedingungen nicht erfüllen, printen Sie:\n\n> \"Sie erfüllen keine der Bedingungen. Somit verpassen Sie Ihren Abschluss.\"\n\n",
+          "description_format" : "MD",
+          "task_type" : "output"
+        },
+        {
+          "id" : 839909863,
+          "name" : "Else",
+          "files" : {
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "wQQSC0b6SNdl/agC3umICHxF+a5QLo4ocV6+KSk+tK80LOAEw78v2dRw5dYgnKFDevkT6vvTOKR5rgIaiuh1ow=="
+            },
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eferBCJRUpIZ4ayufvWxueUjkTH5T6qLwkCIA8J/b3Ro2C51QGOOZ9y2d1T8h9/UP/Erxyytvqah6TKtce//c6Y7JWmrpwjywu359I00l0c3WS8NpU8jeshexr5s1+wMuSjHwJom6Ci5Y59aun6cJcbzR5xyqhtqA6Rx6j/j24vhTXDmla0uhbzx2apLyPCwzUaw4EcHNcHG9f03RlUK91LLEgeCi/hOBhN8eW87Jmg="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "Else\n=============\n\nWie Sie bei der letzten Aufgabe gemerkt haben, wir ein Code mit vielen if-statements schnell unübersichtlich.\n\nMit **else**-statements können wir auf elegante Weise beschreiben, was unser Code tun soll, wenn bestimmte Bedingungen nicht erfüllt sind.\n\nElse-statements treten immer in Verbindung mit if-statements auf. \n\n```python\nif weekday:\n  print(\"Aufwachen um 6:30\")\nelse:\n  print(\"Weiterschalfen\")\n```\n\n \nAuf diese Weise müssen wir nicht für jede mögliche Bedingung eine if-statement schreiben. Stattdessen können wir ein\npauschales else-statement für alle Fälle schreiben, in denen die Bedingung nicht erfüllt ist.\n\nKehren wir zu unserer Streaming-Plattform zurück. Bisher wurde nur geprüft, ob die Benutzer:in älter als 13 Jahre ist. \nWir können nun ein else-statement verwenden, um zwei verschiedene Meldungen zu printen.\n\n```python\nif age >= 13:\n  print(\"Zugang gewährt.\")\nelse:\n  print(\"Du musst mindestens 13 Jahre alt sein, um diesen Film zu sehen.\")\n```\n\nAufgabe\n------\n\n1. Passen Sie den Code so an, dass er bei Nichterfüllung der Bedingung folgendes printed:\n\n> \"Sie erfüllen die notwendigen Bedingungen nicht.\"",
+          "description_format" : "MD",
+          "task_type" : "output"
+        },
+        {
+          "id" : 256786425,
+          "name" : "Elif",
+          "files" : {
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "/l3zIrwaNo7r3Owbxf7dtQ=="
+            },
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eferBCJRUpIZ4ayufvWxueUjkTH5T6qLwkCIA8J/b3S0WzrYWnD6JHdPcxdiI4cY0eC/Z8JEf1KEBKcEW9hZiA=="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "Elif\n==========\n\nWir haben if-statements gesehen und wir haben else-statements gesehen. Als letzes werden wir uns nun **elif**-statements anschauen.\nEin elif-statement ist genau das, wonach es klingt: \"else if\". Ein elif-statement prüft eine andere Bedingung, nachdem die Bedingungen der vorherigen if-statements nicht erfüllt wurden.\nMit elif-statements können wir steuern, in welcher Reihenfolge unser Programm die einzelnen bedingten Anweisungen prüfen soll. \nZuerst wird das if-statement geprüft. Danach wird jedes elif-statement von oben nach unten geprüft. Falls keines der if- und elif-statements wahr war, wird schließlich der else-Code ausgeführt.\n\nSchauen wir uns dies einmal an einem Beispiel an. Das folgende if-statement zeigt eine Dankesnachricht an, nachdem jemand \nfür eine Wohltätigkeitsorganisation gespendet hat. Die Nachricht ist abhängig von der Höhe der Spende.\n\n```python\nprint(\"Vielen Dank für die Spende!\")\n \nif donation >= 1000:\n    print(\"Sie haben den Status eines Platin-Spenders erreicht.\")\nelif donation >= 500:\n    print(\"Sie haben den Status eines Gold-Spenders erreicht.\")\nelif donation >= 100:\n    print(\"Sie haben den Status eines Silber-Spenders erreicht.\")\nelse:\n    print(\"Sie haben den Status eines Bronze-Spenders erreicht.\")\n```\n\nWas würde passieren, wenn alle elif-statements einfach if-statements wären? \nWenn wir 1100,00 CHF gespendet hätten, würden die ersten drei Meldungen alle gedruckt, da jedes if-statement wahr wäre.\nDa wir aber elif-statements verwendet haben, wird jede Bedingung nacheinander geprüft und nur eine Meldung gedruckt. \nWenn wir 600,00 CHF spenden, prüft der Code zuerst, ob der Betrag über 1000 CHF liegt. Da dies nicht der Fall ist, prüft er, ob er über 500 CHF liegt.\nDa dies wahr ist, printed er die entsprechende Meldung. Da alle anderen statements elif- und else-statements sind, wird \nkeine von ihnen geprüft und es werden keine weiteren Meldungen geprinted.\n\nAufgabe\n---------\n1. Die FMS hat festgestellt, dass die Schüler:innen lieber Buchstaben anstatt Noten zurückbekommen.\nSchreiben Sie ein if/elif/else-statement, das:\n- Wenn die Note 5.5 oder höher ist, printe \"A\".\n- Wenn die Note 5 oder höher ist, printe \"B\".\n- Wenn die Note 4.5 oder höher ist, printe \"C\".\n- Wenn die Note 4.0 oder höher ist, wird \"D\" geprinted.\n- Sonst wird \"F\" geprinted.\n\n",
+          "description_format" : "MD",
+          "task_type" : "output"
+        }
+      ],
+      "type" : "lesson"
+    }
+  ],
+  "version" : 13,
+  "edu_plugin_version" : "2022.5-2021.2-755"
+}

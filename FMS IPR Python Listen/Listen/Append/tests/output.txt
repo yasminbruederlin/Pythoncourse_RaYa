@@ -1,0 +1,1 @@
+['Orchideen', 'Gänseblümchen', 'Tulpen', 'Rosen']

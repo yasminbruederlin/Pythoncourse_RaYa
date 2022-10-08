@@ -1,0 +1,299 @@
+{
+  "course_version" : 1,
+  "environment" : "unittest",
+  "summary" : "tldr: Schleifen",
+  "title" : "FMS IPR Python Schleifen",
+  "programming_language" : "Python",
+  "language" : "en",
+  "course_type" : "Marketplace",
+  "vendor" : {
+    "name" : "Raphaelkubler"
+  },
+  "items" : [
+    {
+      "id" : 1608319677,
+      "title" : "Schleifen",
+      "task_list" : [
+        {
+          "id" : 1749579562,
+          "name" : "Loops",
+          "files" : {
+            "task.py" : {
+              "name" : "task.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "jYDdsLbeYzADkRhizR9Kg4f8743FJLgxtWiV2TQv+NfMKYMPKnrBXaQOoPKDsI/YmIncpNZsFkqrdcWjZBGuPfspM4p2Hf/Ft11rebtasu0="
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "XIlL2u+4gqNTqO7La77YdQTjn1YHMq4gonGgZk0sm4e2OyikErDYBXQftY1lQu6Db7Nv/Emb6F6Q+VcO/Tt5v9QB3Mafnk48sFDMfWyYZazkugqi2wmLamjAVb7+k2YBHCT4GjVm7/XyGkMqaMOQuxjOsgNcFftcW/mdjNl8UbULUmc+u9ccd0fjiFWqFl4DLfjoVESHh61LaXmXkTOAXT5nfMsAxt36kJ12N6jzjcFeVc+VZuJ3c+4MZdJSjHMJ2+cIn8xbCgonAIzmsBKBXl+vkBlZjmaEFlb/l8ydSY0="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "Loops\n======\n\nIn unserem Alltag neigen wir dazu, viele Prozesse zu wiederholen, ohne es zu merken.\n\nWenn wir zum Beispiel ein leckeres Rezept kochen wollen, müssen wir unsere Zutaten vorbereiten, indem wir sie zerkleinern. \nWir hacken und hacken und hacken, bis alle unsere Zutaten die richtige Größe haben. An diesem Punkt hören wir auf zu hacken.\n\nWenn wir unsere Zerkleinerungsaufgabe in eine Reihe von drei kleineren Schritten aufteilen, haben wir:\n\n1. Eine **Initialisierung**: Wir sind bereit zu kochen und haben eine Sammlung von Zutaten, die wir zerkleinern wollen. \n   Wir beginnen mit der ersten Zutat.\n2. Eine **Wiederholung**: Wir hacken los. Wir führen die Aktion des Zerkleinerns immer wieder für jede unserer Zutaten aus, \n   eine Zutat nach der anderen.\n3. Eine **Endbedingung**: Wir sehen, dass wir keine Zutaten mehr zu hacken haben und hören auf.\n\nBeim Programmieren wird dieser Prozess, der eine Initialisierung, Wiederholungen und eine Endbedingung beinhaltet, **Loop** \ngenannt. In einem Loop wiederholen wir also Aufgaben. Diesen Prozess nennen wir **Iteration**.\n\nIn Python gibt es zwei Arten von Iterationen:\n\n1. **Unbestimmte Iteration**, bei der die Anzahl der Schleifenausführungen davon abhängt, wie oft eine Bedingung erfüllt ist.\n2. **Bestimmte Iteration**, bei der die Anzahl der Schleifenausführungen im Voraus festgelegt wird.\n\nTypischerweise werden Loops verwendet, um über eine Sammlung von Elementen zu iterieren. Im obigen Beispiel können wir \nuns die Zutaten, die wir zerkleinern wollen, als unsere Sammlung vorstellen. Dies ist eine Form der definitiven Iteration, \nda wir im Voraus wissen, wie lang unsere Sammlung ist und somit wissen, wie oft wir die Sammlung der Zutaten durchlaufen müssen.\n\nEinige Sammlungen können klein sein - wie eine kurze Zeichenkette -, während andere Sammlungen riesig sein können - wie \nein Zahlenbereich von 1 bis 10.000.000! Aber keine Sorge, Loops bieten uns die Möglichkeit, mit beide Sorten einfach umzugehen. \nDieses einfache, aber leistungsfähige Konzept spart uns viel Zeit und erleichtert uns die Arbeit mit großen Datenmengen.\n\nIn dieser Lektion lernen wir, wie wir mit Python sowohl bestimmte als auch unbestimmte Iterationen in unseren eigenen Programmen implementieren können.\n",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 1129773590,
+          "name" : "Loops 2.0",
+          "files" : {
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "1jqKdF4b6AJCbcbi3PGE1555t4Y9b0u8h3wKafrfWWbUxyZYJQPlfxIIsuR6t5Hftmr2r/v3DtYCP2iRRubrHhHcLMV4wYAevJxwEQ2NENcR+U/ivGgrREwXD48JpO4mWlYSxR2jwsZZiOEgcaGwdmleRRclvxu6PJ5KmLqNYRdJx4rODVi3xTNZdCAUtFkV3NaHn1pISkb2cDMjbBmkwB4SqHdgtFEhaxNOueVNj8GS9LRxfrlfWbq20s6gUXxGrXq63fPQSsPM7UR8p1pPCg7Cj45t7xuBb5RU6saxRy0NJtTFOaTTzNnj3doTVKPlHTuPsTzP8xPVUnxmVs5RA7ekTNPgglZG0r2tKWJ26edN78mJiBHPcyaqo/MU/k3+x33+eDnBTBxPKf0G1t5vgxd+yrbHd3imC3sOQmaVAX2/KI5QYzJ5UV/IVM+5DG93K9HYiZ2oi7lGprYojAJyBfHrGF0svdRaHHdlxU1ow5hklHl9KOfdAeVaTI/BFDKRo1RVkSC3sZ6sEDTmu42OlA=="
+            },
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eferBCJRUpIZ4ayufvWxuWrBZmK6TKQctwAe5ytqCnkeaFcLE2GBr/ZOfCGo7jXN0QmI5dgirJx+Vbe22kVpwxzZa0nDguMcvojKWwvGzBA="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "Loops 2.0\n===========\n\nBevor wir unsere eigenen Loops erstellen, wollen wir die Motivation dahinter kennenlernen. Dafür betrachten wir ein Beispiel\nbei welchem wir nicht die Hilfe von einem Loop verwenden.\n\nNehmen wir an, wir haben eine Liste von Zutaten und wollen jedes Element der Liste ausdrucken:\n\n```python\ningredients = [\"Milch\", \"Zucker\", \"Vanilleextrakt\", \"Teig\", \"Schokolade\"]\n```\n\nWenn wir nur print() verwenden, könnte unser Programm wie folgt aussehen:\n\n```python\nprint(ingredients[0])\nausdrucken(ingredients[1])\nausdrucken(ingredients[2])\nausdrucken(ingredients[3])\nprint(ingredients[4])\n```\n\nPrinted folgendes:\n\n```python\nMilch\nZucker\nVanilleextrakt\nTeig\nSchokolade\n```\n\nDieses Beispiel ist noch überschaubar. Wir schreiben nur 5 print()-Anweisungen. \nWenn wir uns aber nun vorstellen, dass die Liste 10 oder 24601 oder ... 100.000.000 Elemente besitzt. \nIn diesem Fall würde es Ewigkeiten dauern, bis wir alle print Befehle geschrieben hätten. Zudem würden wir wahrscheinlich\nnoch etliche Fehler begehen, indem wir uns vertippen.\n\nAufgabe\n----------\n\n1. Verwenden Sie den `print()` Befehl um 10-mal `\"This can be so much easier with loops!\"` zu printen.\n",
+          "description_format" : "MD",
+          "task_type" : "output"
+        },
+        {
+          "id" : 1364631112,
+          "name" : "For-Loops",
+          "files" : {
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "1PKWUdAviVrhICxnIKAYTSVgDQ9ct3IlEnznu2x5WK8s5gdpKq3g22YPZQ1s02eNvwUgqrexkxburR77AgzcQ6ioPNVJsHBVDtaNxLtJIa6lfiUj7W7CrDFummHDNVLt"
+            },
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eferBCJRUpIZ4ayufvWxucBIVjLzZKMwkqcQ/EFW2ACYShyRfrPD4gbraNcu1qMMNvC9dsEyIRkWmWeudomn+jUNQkIXvFNUC4tGSXUT4NamLPowVDYyFTGg9Mi9/LgggQvusOv/2n3/AcCbC7RgNv/NCqHNQ7uAKLMKy1VXaD6kANY10IqQeyvc2Cmb09uIWFe7ucpodE88Ktzs1PbdqMUlIDYYFNaOOU6qNB1IUnhAzehkAgbHxVe4yNtGTB+7kREjgFXST5+w2eeaFvdtuGluM+Y9LIner3GlvGMkHr5g4Coz8muczzqzdfEjvciOZ5xU93RNLbrQ5fsZX0BPw/x1WhpMyBYTKh+p5jayyeU="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "For-Loops\n========\nDer erste Loop-Typ den wir uns ansehen ist die **for-Loop**.\n\nBei einem for-Loop wissen wir im Voraus, wie oft die Schleife iteriert werden muss. Ein for-Loop ist also eine bestimmte\nIteration. In unseren Beispielen verwenden wir Python-Listen als Sammlung von Elementen.\n\nMit for-Loops können wir bei jeder Iteration eine Aktion für jedes Element der Liste durchführen.\n\nBevor wir mit einer Liste arbeiten, wollen wir uns die allgemeine Struktur eines for-Loops ansehen:\n\n```python\nfor <temporäre Variable> in <Liste>:\n  <Code>\n```\n\nSchauen wir uns das genauer an:\n\n1. Das `for`-Keyword zeigt den Beginn eines for-Loops an.\n2. Die `<temporäre Variable>` wird verwendet, um den das aktuelle Element in der Liste darzustellen.\n3. Das `in`-Keyword trennt die temporäre Variable von der für die Iteration verwendeten Liste.\n4. Die `<Liste>` ist eine ganz normale Python-Liste.\n5. Der `<Code>`, wird bei jeder Iteration des Loops ausgeführt.\n\nDamit wir das Ganze etwas besser verstehen, verknüpfen wir diese Konzepte mit unserem Zutaten-Beispiel. \nDieser for-Loop gibt jede Zutat in `ingredients` aus:\n\n```python\ningredients = [\"milk\", \"sugar\", \"vanilla extract\", \"dough\", \"chocolate\"]\nfor ingredient in ingredients:\n  print(ingredient)\n```\n\nIn diesem Beispiel gilt:\n\n1. `ingredient` ist die `<temporäre Variable>`.\n2. `ingredients` ist unsere `<Liste>`.\n3. `print(ingredient)` war die `<Aktion>`, die bei jeder Iteration ausgeführt wurde.\n\nDieser Code printed also folgendes:\n\n```python\nmilk\nsugar\nvanilla extract\ndough\nchocolate\n```\n\nEinige Hinweise zu for-Loops:\n\n**Temporäre Variablen:**\n\nDer Name einer temporären Variable ist frei wählbar und muss nicht vorher definiert werden. Die beiden folgenden \nCodeschnipsel tun genau das Gleiche wie unser obiges Beispiel:\n\n```python\nfor i in ingredients:\n  print(i)\nfor item in ingredients:\n print(item)\n```\n\nDa bei jeder Iteration unserer Schleife auf eine Zutat zugegriffen wird, ist es sinnvoller, unsere temporäre Variable \n`ingredient` zu nennen anstatt `i` oder `item`.\n\n**Einrückung:**\n\nBei einem Loop muss die `<Aktion>` immer eingerückt sein. Alles, was auf eingerückt nach dem for-Loop steht, \nwird bei jeder Iteration der Schleife ausgeführt.\n\n```python\nfor ingredient in ingredients:\n  # Jeder Code auf dieser Ebene der Einrückung \n  # wird bei jeder Iteration der Schleife ausgeführt\n  print(ingredient)\n```\n\nFalls wir das Einrücken vergessen, erhalten wir einen `IndentationError` oder ein unerwartetes Verhalten.\n\nAufgaben\n---------\n\n1. Führen Sie den Code aus. Es sollte ein IndentationError geben.\n\n2. Korrigieren Sie den Code, indem Sie die richtige Zeile korrekt einrücken.\n\n3. Schreiben Sie eine for-Loop, um alle Sportarten zu printen.\n",
+          "description_format" : "MD",
+          "task_type" : "output"
+        },
+        {
+          "id" : 1988560612,
+          "name" : "For-Loops mit Range",
+          "files" : {
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "/VIiOlgqM9weiRAzWgfTy8+g/qEDzQaSWSMAFMRFkuq6Rs0XLnjcNBK0Z+vGnxhvnNMckJ/viXvKT94RykX8FqzDpFopZSG2Gxv1BtkGke+9TT6DwuoV/k51IJ6M850VBe541fO58Rk1QxJNZLg0COEeGs9JTmWgarcBeB4GJ7da9T+Hf8Y2cpnAQddsxW+3pnRI+wB5axfI39oSNm0t41FriZTyxcrAcZIscFKiGRfeRawufNAAk0ageYjL+152jLnE5OMuUBF/YckWKCsbWA=="
+            },
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eferBCJRUpIZ4ayufvWxucBIVjLzZKMwkqcQ/EFW2AAdyER46QBa+3CoadNzok7V9jdCx6mcpNeY+rPeKHFDYznigD53bSopCzKTvI2BI5hY3jXTDXnoo/iwtieDOHatwImZGG97J7hLVZoKL9+ojfrWOnPqwobBiIp1uMyYWC8="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "For-Loops mit Range\n===================\n\nOft möchten wir gar nicht durch eine Liste iterieren, sondern nur eine bestimmte Aktion mehrmals ausführen.\n\nWenn wir z.B. mit einem for-Loop sechsmal die Meldung \"Ich lerne gerade Loops!\" ausgeben wollen, würden wir folgendermassen vorgehen:\n\n```python\nfor <temporäre Variable> in <Liste der Länge 6>:\n  print(\"Ich lerne gerade Loops!\")\n```\n\nBeachten Sie, dass wir eine Liste mit einer Länge von sechs durchlaufen müssen, aber es ist uns nicht unbedingt wichtig, \nwas sich in der Liste befindet.\n\nDamit wir immer eine Liste mit der richtigen Länge besitzen, können wir die Funktion `range()` verwenden.\n\nDer folgende Code erzeugt eine Sammlung von 6 ganzzahligen Elementen von 0 bis 5:\n\n```python\nsix_steps = range(6)\n \n# six_steps ist nun eine Sammlung mit 6 Elementen:\n# 0, 1, 2, 3, 4, 5\n```\n\nWir können das range-Objekt direkt in unseren for-Loops als \"Liste\" verwenden, um eine Iteration sechsmal durchzuführen:\n\n```python\nfor temp in range(6):\n  print(\"Ich lerne gerade Loops!\")\n```\n\nPrinted folgendes:\n\n```python\nIch lerne gerade Loops!\nIch lerne gerade Loops!\nIch lerne gerade Loops!\nIch lerne gerade Loops!\nIch lerne gerade Loops!\nIch lerne gerade Loops!\n```\n\nEs ist zu beachten, dass wir die Variable `temp` nirgendwo innerhalb des Loops verwenden. \nWenn wir wissen wollen, in welcher Iteration des Loops wir uns befinden, können wir `temp` verwenden, um dies zu verfolgen. \nDa unser range-Objekt bei 0 beginnt, fügen wir + 1 zu `temp` hinzu, um die Anzahl der Iterationen unserer Schleife genauer \ndarzustellen.\n\n```python\nfor temp in range(6):\n  print(\"Wir befinden uns in der \" + str(temp + 1) + \". Iteration.\")\n```\n\nPrinted folgendes:\n\n```python\nWir befinden uns in der 1. Iteration.\nWir befinden uns in der 2. Iteration.\nWir befinden uns in der 3. Iteration.\nWir befinden uns in der 4. Iteration.\nWir befinden uns in der 5. Iteration.\nWir befinden uns in der 6. Iteration.\n```\n\nAufgabe\n---------\n1. Verwenden Sie `range()` um den Wert der Variable `promise`5-mal zu printen.\n\n",
+          "description_format" : "MD",
+          "task_type" : "output"
+        },
+        {
+          "id" : 1566428729,
+          "name" : "While-Loops",
+          "files" : {
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "mwWr7AM+kgD26ik1nwn+Ut1JTIu0sDltY3Z3M1sLduZftgn7EXsCZ66QEUG9vI4y"
+            },
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eferBCJRUpIZ4ayufvWxucBIVjLzZKMwkqcQ/EFW2AAt18bWZCuy8w2hP/0hfRoTRiHryFn8Nmvmsdi4z97E6i0cf6wBtLzkD2+ptoi9ySMI4lUNL1iBpH9ORC7RJwd1RmvEfBjBS9u7WuDVzqNNIeT6vc567A0d/bq7vJI8ITMszVC0WI1Gcs3IZUXOgrlGkrpJGbEFLjhL8ZldaN5X6N3NA4CUSYMmGQHw3352iEHwTitwVpTidFdzEnp9KQSlvpyMb3irjrfXgBcs6J0xbdntgw8es2fPmxDxFj3daMulkoUoB5X/7Rvm/M54CxxaOuOj9V6COcKm1zmrlEw9HsyRj4n07JwSggR4dh79h3DRTLOdnV3zl2iIpQ+sSmi8ARYEaVJWoowx+FLlnryv/ZqxRyzM5Hh3Yjcy1iXhb+OYYKv2gVTho2Y0hvVakOfH1RNoDstcs5wQ+JMLvUvcYuNVk/woBx8dtuSxnCgo9xUSByxWbnUXLAd6fuCJgzLBTy+xtJNswnaTnq38FZOXJmzN1Q6fhuipADArJ9Sz7xiJacdUp0UqqA0EOzX/uIWTGwfo6Gr3B2q//aDUaNSkXk+Nt6vT60FuD0VJlKynvzuZvgr9dY57nTgnghKH3JMk4FuceIgVODtDHUEcJ0uh9GHhSCnQ2nKQd81oHXZO2AodzwmUilURpEbksNurf5LpJ3Gb9n6lIYFVmZpDLOvNnZC9ngz58ARjFOauIn2bc5E="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "While-Loops\n===========\n\nIn Python sind for-Loops nicht die einzige Art von Loops. Eine andere Art von Loops sind die **while-Loops**. While-Loops\nsind im Gegensatz zu for-Loops unbestimmte Iterationen.\n\nEin while-Loop führt eine Reihe von Anweisungen aus, solange eine bestimmte Bedingung erfüllt ist.\n\nDie Struktur folgt diesem Muster:\n\n```python\nwhile <Bedingung>:\n  <Aktion>\n```\n\nBetrachten wir das folgende Beispiel, in dem wir die ganzen Zahlen 0 bis 3 ausgeben:\n\n```python\ncount = 0\nwhile count <= 3:\n  # Schleifenkörper\n  print(count)\n  count += 1\n```\n\nSchauen wir uns das genauer an:\n\n1. `count` wird anfangs auf 0 gesetzt. Die Bedingung im while-Loop lautet `count <= 3`. Bei der ersten Iteration der \n   Schleife ist die Bedingung also erfüllt. Also wird der Loop ausgeführt.\n\n2. Innerhalb des Loops printen wir `count` und erhöhen den Wert anschliessend um 1.\n\n3. Nach der ersten Iteration, kehrt Python an den Anfang des Loops zurück und überprüft die Bedingung erneut. \n   Nach der ersten Iteration wäre `count` also gleich 1. Somit wird die Bedingung immer noch als `True` ausgewertet und \n   der Loop erneut ausgeführt.\n\n4. So geht es weiter, bis die Variable `count` den Wert 4 annimmt. Wenn die Bedingung geprüft wird, ist sie nun nicht mehr \n   wahr und der Loop wird beendet.\n   \nEs wird also folgendes geprinted:\n\n```python\n0\n1\n2\n3\n```\n\nEinige Hinweise zu while-Loops:\n\n**Einrückung:**\n\nÄhnlich wie bei einem for-Loop wird alles, was auf der gleichen Einrückungsebene steht, bei jeder Iteration des Loops ausgeführt, \nsolange die Bedingung erfüllt ist.\n\n```python\ncount = 0\nwhile count <= 3:\n  # Schleifenkörper\n  print(count)\n  count += 1\n  # Jeder andere Code auf dieser Einrückungsebene wird\n  # bei jeder Iteration ausgeführt.\n```\n\nWenn wir das Einrücken vergessen, erhalten wir einen `IndentationError`.\n\nAufgaben\n--------\n\n1. Untersuchen Sie den bereitgestellten while-Loop. Es gibt zusätzliche print()-Anweisungen, die helfen, die Iterationen \n   zu visualisieren. Führen Sie den Code aus, um zu sehen, was bei jeder Iteration der Schleife passiert. Wenn Sie fertig sind, \n   kommentieren Sie das Beispiel aus.\n\nDa Sie nun auch Loops beherrschen hat die NASA angeklopft. Sie möchte ein Python-Programm, dass den Countdown für Ihre Raketen\nherunterzählt.\n\nDafür brauchen Sie:\n\n- Eine Variable, welche die Anzahl Iterationen zählt und  dazu beiträgt, dass unserer Loop schließlich stoppt.\n- Eine Bedingung, die unseren while-Loop bei jeder Iteration prüft.\n- Code-Anweisungen, die bei jeder Iteration des Loops ausgeführt werden.\n\n\n2. Erstellen Sie eine Variable namens `countdown` und setzen Sie den Wert auf 10.\n\n3. Definieren Sie einen while-Loop. Er soll ausgeführt werden, solange die Variable `countdown` größer oder gleich Null ist.\n\n4. Bei jeder Iteration soll:\n\n- der Wert von `countdown` geprinted werden.\n- der Wert von `countdown` um 1 verringert werden.\n\n5. Nach Beenden der Schleife soll das Progarmm noch \"We have liftoff!\" printen.\n",
+          "description_format" : "MD",
+          "task_type" : "output"
+        },
+        {
+          "id" : 699341262,
+          "name" : "While-Loops mit Listen",
+          "files" : {
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "B6sUksNQpca4OxPmeYqAas3doeNAcmsLXghPWQDgKeQyegrgj49NjB3w++vZ/u70rWMql7UDXOqFd6ahFHYvs0B5ilkf/oTOQWLVvYmp9OXMQ/c5GfwrZfdiLNggFNackwPtFZKEdTSecXquSCWvlUVUNUVXXucK6OOC10OxDPbE/zh3ZfaJVavo5i+iZ2sfr4OG/e41uP0K06PsJKFuHQ=="
+            },
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eferBCJRUpIZ4ayufvWxucBIVjLzZKMwkqcQ/EFW2ADrxI1q6c83rQXi3Oiol0gmoGNV1Qk0S8q6Lm2MVqUUZiGZ0gIL0AOvLNmoys531iIZDBk2BVCDAOkplH07iqU0cAOlyxayZTX+5/UfFahv9TCC0l369ZofAwMJi/TMrgXqN5pDSBUcvYgP9WaA7c5l3KaNXmqoDh6qbnIk+nGiwQ=="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "While-Loops mit Listen\n======================\n\nGenau wie for-Loops können wir auch mit while-Loops über Listen iterieren.\n\nDafür schauen wir uns unser Zutaten-Beispiel von zuvor an.\n\n```python\ningredients = [\"milk\", \"sugar\", \"vanilla extract\", \"dough\", \"chocolate\"]\n```\n\nWir wissen, dass while-Loops eine Variable benötigen, um die Bedingung für den Start und das Ende des Loops festzulegen.\n\nWas würden Sie in diesem Fall verwenden, um über die Liste `ingredients` zu iterieren und jedes Element zu printen.\nKlicken Sie auf hint um die Lösung zu sehen.\n\n<div class=\"hint\">\n\nWir wissen, dass eine Liste eine bestimmte Länge hat. Wenn wir die Länge der Liste als Grundlage dafür verwenden, wie lange unsere while-Schleife laufen muss, können wir die genaue Länge der Liste iterieren. \nDazu können wir die Funktion `len()` verwenden:\n\n```python\n# length ist in diesem Fall 5\nlength = len(ingredients)\n```\n\n</div>\n\n\nDiese Länge können wir dann zusammen mit einer anderen Variable verwenden, um die Bedingung des while-Loops zu erstellen:\n\n```python\nlength = len(ingredients)\nindex = 0\n \nwhile index < length:\n  print(ingredients[index])\n  index += 1\n```\n\nSchauen wir uns das mal genauer an:\n\n```python\n# length ist in diesem Fall 5\nlength = len(ingredients)\n```\n\nDamit wir genügend oft (aber auch nicht zu oft) iterieren, müssen wir wissen, wie lang unsere Liste ist.\nAus diesem Grund speichern wir in der Variablen `length` die Länge der Liste.\n\n```python\n# Index beginnt bei Null\nindex = 0\n```\n\nWir benötigen eine zusätzliche Variable, die wir mit unserer Länge vergleichen können. Aus diesem Grund definieren wir die Variable `index`.\n\n```python\nwhile index < length:\n```\n\nFür die Bedingung des while-Loops vergleichen wir nun die beiden erstellten Variablen.  \n\nBei der ersten Iteration lautet die Bedingung `0 < 5`. Dies wird als `True` ausgewertet und der Loop wird somit ausgeführt. \n\n```python\n# Bei der ersten Iteration wird ingredients[0] geprinted.\nprint(ingredients[index])\n```\n\nInnerhalb des Loops können wir die Variable `index` verwenden, um auf unsere Liste `ingredients` zuzugreifen den entsprechenden\nWert in der Liste auszugeben.\n\nDa unser Index bei Null beginnt, wird bei der ersten Iteration der Wert des Elements am nullten Index der Zutatenliste gedruckt. \nBei der nächsten Iteration wird der Wert des Elements am ersten Index geprinted usw.\n\n```python\n# Index erhöhen, um auf das nächste Element in der Zutatenliste zuzugreifen.\n# Jede Iteration führt dazu, dass die bald Bedingung nicht mehr erfüllt ist.\nindex += 1\n```\n\nBei jeder Iteration unserer while-Schleife müssen wir auch den Wert von `index` erhöhen. Damit stellen wir sicher, \ndass unser Loop auch irgendwann beendet wird. \n\nAusserdem bewirkt das Erhöhen auch, dass wir beim nächsten Durchlauf auf den nächsten Wert von `ingredients` zugreifen können.\n\nUnsere endgültige Ausgabe würde lauten:\n\n```python\nmilk\nsugar\nvanilla extract\ndough\nchocolate\n```\n\nAufgaben\n---------\n\nWir werden einen while-Loop erstellen, um über die bereitgestellte Liste `python_topics` zu iterieren.\n\nZunächst benötigen wir eine Variable, die die Länge der Liste angibt. Sie sagt uns, wie oft wir den Loop ausführen müssen.\n\n1. Erstellen Sie eine Variable `length` und setzen Sie ihren Wert auf die Länge der Liste `python_topics`.\n\nAls Nächstes benötigen wir eine Variable, die wir in der Bedingung mit unserer `length`-Variablen vergleichen können.\n\n2. Erstellen Sie eine Variable namens `index` und initialisieren Sie den Wert auf 0.\n\n3. Unsere Schleife soll über die Liste der `python_topics` iterieren und bei jeder Iteration `\"I am learning about <Element aus python_topics>\"` printen. \n",
+          "description_format" : "MD",
+          "task_type" : "output"
+        },
+        {
+          "id" : 1282307693,
+          "name" : "Endlosschleifen",
+          "files" : {
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "MrH9H/X7MjJY/litB+o3QiodbeYMT+wtANOSFbvYeEE="
+            },
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eferBCJRUpIZ4ayufvWxucBIVjLzZKMwkqcQ/EFW2ADFW2IVrTMSeYRNPNTzbo8IUHIeZYOoICBytd0oxnmvQiacCgNpP6Ne0DY5JE9BF7FnSU0CSUhw7r65YZsCh47F4lsBs/BX8Mk6VFNNkThxJZJxwXODShYPOM3ShAGOEUQywZut9ZuTLH9q7PKDWXRxNofo+mnYKYRKvmnRcR9L3pABSdnsYSpCjcWea8hs9PEP3knJ9AlN0A4IF2mUM+LJB3sVwFdSqTelrnotWz6rrHSh1H8N2gkaeh97ET9JMih8LSsRqqzLgM7lc05BF9i9"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "Endlosschleifen\n==============\n\nWenn wir mit while-Loops arbeiten, kommt es immer wieder vor, dass wir einen **Endlosschleife** erstellen.\n\nSchauen wir uns doch mal das folgende Beispiel an.\n\n```python\nmy_favorite_numbers = [4, 8, 15, 16, 42]\n \nfor number in my_favorite_numbers:\n  my_favorite_numbers.append(1)\n```\n\nWas passiert in diesem Beispiel? Für die Lösung können Sie auf `Hint` klicken.\n\n<div class=\"hint\">\nJedes Mal, wenn wir den Loop ausführen, fügen wir eine 1 an das Ende der Liste an. Das Ergebnis ist, dass wir nie am \nEnde der Liste ankommen, da sie immer weiter wächst!\n</div>\n\nEin Loop, der niemals endet, nennt man eine Endlosschleife (engl. infinite loop). Diese Loops sind für unseren Code sehr \ngefährlich, da sie unser Programm ewig laufen lassen und somit alle Ressourcen des Computers verbrauchen.\n\nEin Programm, das in eine Endlosschleife gerät, wird oft völlig unbrauchbar. \n\nHinweis: Wenn Sie in eine Endlosschleife geraten, können Sie die Schleife beenden, indem Sie die Tastenkombination Strg + c verwenden, um das Programm zu beenden. \n\nAufgabe\n-----------\n\nAngenommen, wir haben zwei Listen mit Schülern, `students_A` und `students_B`. Wir möchten alle Schüler:innen in \n`students_B` zusammenfassen.\n\n1. Kommentieren Sie die Zeile 7 aus. Bevor Sie den Code ausführen, sollten Sie überlegen, warum dieser Code eine Endlosschleife verursacht.\n\n2. Führen Sie den Code aus.\n\nHilfe - wir haben eine Endlosschleife! \n\n3. Beenden Sie das Programm.\n\n4. Löschen Sie die Zeile, welche die Endlosschleife verursacht und korrigieren Sie das Programm so, dass das am Ende aller \nSchüler:innen in der Liste `students_B` enthalten sind.\n\n\nThis is a task description file.\nIts content will be displayed to a learner\nin the **Task Description** window.\n\nIt supports both Markdown and HTML.\nTo toggle the format, you can rename **task.md**\nto **task.html**, or vice versa.\nThe default task description format can be changed\nin **Preferences | Tools | Education**,\nbut this will not affect any existing task description files.\n\nThe following features are available in\n**task.md/task.html** which are specific to the EduTools plugin:\n\n- Hints can be added anywhere in the task text.\nType \"hint\" and press Tab.\nHints should be added to an empty line in the task text.\nIn hints you can use both HTML and Markdown.\n<div class=\"hint\">\n\nText of your hint\n\n</div>\n\n- You may need to refer your learners to a particular lesson,\ntask, or file. To achieve this, you can use the in-course links.\nSpecify the path using the `[link_text](course://lesson1/task1/file1)` format.\n\n- You can insert shortcuts in the task description.\nWhile **task.html/task.md** is open, right-click anywhere\non the **Editor** tab and choose the **Insert shortcut** option\nfrom the context menu.\nFor example: &shortcut:FileStructurePopup;.\n\n- Insert the &percnt;`IDE_NAME`&percnt; macro,\nwhich will be replaced by the actual IDE name.\nFor example, **%IDE_NAME%**.\n\n- Insert PSI elements, by using links like\n`[element_description](psi_element://link.to.element)`.\nTo get such a link, right-click the class or method\nand select **Copy Reference**.\nThen press &shortcut:EditorPaste; to insert the link where appropriate.\nFor example, a [link to the \"contains\" method](psi_element://java.lang.String#contains).\n\n- You can add link to file using **full path** like this:\n  `[file_link](file://lesson1/task1/file.txt)`.",
+          "description_format" : "MD",
+          "task_type" : "output"
+        },
+        {
+          "id" : 34666786,
+          "name" : "Break",
+          "files" : {
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "eWMyFnxHkl/yqD2Aq2c0OIL8ToNOwzRQyi5TXEtH+wGPMHftROw9yAJNj2y59HdR08LOfrZXwn6DSp+xf2yrhQ=="
+            },
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eferBCJRUpIZ4ayufvWxucNquG/amJsu4Fne4aKvhbpHwDur+0n0nVuhhFZKseqCG7b6tFVhggakKI2N94Ob2kJK3cQnWqx4MhYdyRl0GMVWmJRQE6ivOjMmrfGxUa5I6eZQeuG0kCwDz7Br8+aRGJKnNp7y4i0Jvu6nj36V6uYHsSHIQvWQ9ufumMQ2wyRpXnO77XaWQl7vKoJfRFliKcCaNyiLBqnR1s+xYGhTImAeKf//dEWwM8b2JZXwc4/5/xSbSHIcBmtXgiIwalEdhg=="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "Break\n========\n\n\nManchmal ist es hilfreich einen Loop zu beenden, wenn ein bestimmtes Ereignis während des Loops eintritt.\n\nNehmen wir die folgende Liste `items_on_sale` als Beispiel:\n\n```python\nitems_on_sale = [\"blue shirt\", \"striped socks\", \"knit dress\", \"red headband\", \"dinosaur onesie\"]\n```\n\nWie sieht unser Loop aus, wenn wir nach dem Wert `\"knit dress\"` suchen und `\"Found it\"` printen wollen, wenn er existiert?\n\nDer Loop würde etwa so aussehen:\n\n```python\nfor item in items_on_sale:\n  if item == \"knit dress\":\n    print(\"Found it\")\n```\n\nDieser Code durchläuft jeden Artikel in `items_on_sale` und sucht nach einer Übereinstimmung. \nDas ist alles schön und gut, aber was ist das Problem?\n\nSobald `\"knit_dress\"` in der Liste `items_on_sale` gefunden wurde, brauchen wir den Rest der Liste `items_on_sale` nicht mehr zu durchlaufen. \nLeider wird unsere Schleife aber so lange laufen, bis wir das Ende der Liste erreicht haben.\n\nDa die Liste nur 5 Elemente umfasst, ist das Durchlaufen der gesamten Liste in diesem Fall keine große Sache. Aber was\nwürde passieren wenn `items_on_sale` 1'000'000 Elemente hätte? Das wäre eine enorme Zeitverschwendung für unser Programm!\n\nGlücklicherweise können Sie die Iteration innerhalb der Schleife mit der Anweisung `break` stoppen.\n\nWenn das Programm auf eine break-Anweisung trifft, wird die Schleife sofort beendet. Zum Beispiel:\n\n```python\nitems_on_sale = [\"blue shirt\", \"striped socks\", \"knit dress\", \"red headband\", \"dinosaur onesie\"]\n \nprint(\"Checking the sale list!\")\n \nfor item in items_on_sale:\n  print(item)\n  if item == \"knit dress\":\n    break\n \nprint(\"End of search!\")\n```\n\nPrinted folgendes:\n\n```python\nChecking the sale list!\nblue shirt\nstriped socks\nknit dress\nEnd of search!\n```\n\nSobald wir zur break-Anweisung kamen, wurde der Loop sofort beendet. \nWir mussten also die Elemente \"read headband\" oder \"dinosaur onesie\" gar nicht überprüfen.\n\nAufgaben\n---------\n\nSie möchten einen Hund adoptieren. Zur Auswahl steht eine Liste von Hunderassen, die Sie in \n`dog_breeds_available_for_adoption` finden.\n\n1. Verwenden Sie einen for-Loop, um die Liste `dog_breeds_available_for_adoption` zu durchlaufen und jede Hunderasse zu printen.\nTipp: Verwenden Sie eine temporäre Variable namens `dog_breed`.\n\n2. Prüfen Sie im for-Loop, ob das aktuelle Element in `dog_breed` gleich `dog_breed_I_want` ist (nachdem Sie geprinted haben). \n   Wenn ja, printen Sie \"They have the dog I want!\"\n\n3. Fügen Sie eine break-Anweisung ein, sobald dog_breed_I_want gefunden wurde. \n",
+          "description_format" : "MD",
+          "task_type" : "output"
+        },
+        {
+          "id" : 823120735,
+          "name" : "Continue",
+          "files" : {
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "GaYqGca4BGBxG9tKz4Ii5dsJs8kbJKSkwTrZ8/u/wGs="
+            },
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eferBCJRUpIZ4ayufvWxufa1kJpe7+i9+Ed+EbUvns2HYBkg3DyWFwuCkblM1ondhCClnugko13CS/97SdEh6OF8/0WJ/W7Dbp5S5ugM7pFASk5CMERlW1E4o4EvmSUKttyQKlbJBCfnfTa+pqcuJgoJR9nkJso9Mlo43ygho8g="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "Continue\n=========\n\nDie break-Anweisung von zuvor ist sehr nützlich. Es gibt aber auch Situationen, in denen wir den Loop nicht ganz beenden wollen. \nWas ist, wenn wir beispielsweise nur die aktuelle Iteration des Loops überspringen wollen?\n\nNehmen wir diese Liste von Zahlen als Beispiel:\n\n```python\nbig_number_list = [1, 2, -1, 4, -5, 5, 2, -9]\n```\n\nWas, wenn wir alle Zahlen in einer Liste ausgeben wollen, aber nur, wenn es sich um positive Zahlen handelt? \nIn diesem Fall können wir die continue-Anweisung verwenden.\n\n```python\nfor i in big_number_list:\n  if i <= 0:\n    continue\n  print(i)\n```\n\nDies printed folgendes:\n\n```python\n1\n2\n4\n5\n2\n```\n\nErklärung: Ähnlich wie bei der break-Anweisung ist die continue-Anweisung in der Regel mit einer Form von Bedingung (if/elif/else) verbunden.\nSobald unser Loop das erste Mal auf ein Element (-1) stösst, wird die continue-Anweisung ausgeführt. Somit wird die aktuelle Iteration übersprungen \nund der Loop geht zum nächsten Element in der Liste über (4).\nBei der Ausgabe werden also positive Zahlen geprinted, da unsere Schleife das printen der negativen Zahlen jeweils überspringt.\n\nAufgabe\n--------\n\nIhr Computer ist neuerding der Türsteher einer Bar, in der das Mindestalter 18 Jahre beträgt.\n\n1. Gehen Sie die Altersliste durch. Überspringen Sie alle Einträge die kleiner als 18 sind und fahren Sie mit dem nächsten Eintrag fort. \n   Ansonsten printen Sie das Alter.\n",
+          "description_format" : "MD",
+          "task_type" : "output"
+        },
+        {
+          "id" : 1623186905,
+          "name" : "Verschachtelte Loops",
+          "files" : {
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "4dM7cmuHxAd4W32x4nC/rYHctGnTMI1dR3iHsenBkOyXYs+YSnfy7Dyr1U8SXRDD"
+            },
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eferBCJRUpIZ4ayufvWxucBIVjLzZKMwkqcQ/EFW2ADbbRki8HjdtYEE1ehcZr6u1HRAU9g1fujeK2bLr7T5F9vjDUvp4AOJdQX5yGQIjtWB+WWOL75OrjYySl+U2gf1gMFyvpMXp6G6Y26WXgS2IlF1T6UQhhuB+IbV8PM6M7M="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "Verschachtelte Schleifen\n=========================\n\nLoops können auch verschachtelt werden. \n\nNehmen wir an, wir sind für eine Klasse verantwortlich, die in drei Projektteams aufgeteilt ist:\n\n```python\nproject_teams = [[\"Ava\", \"Samantha\", \"James\"], [\"Lucille\", \"Zed\"], [\"Edgar\", \"Gabriel\"]]\n```\n\nDie Verwendung eines for- oder while-Loops kann hier nützlich sein, um jedes Team zu erhalten:\n\n```python\nfor team in projekt_teams:\n  print(team)\n```\n\nPrinted folgendes:\n\n```python\n[\"Ava\", \"Samantha\", \"James\"]\n[\"Lucille\", \"Zed\"]\n[\"Edgar\", \"Gabriel\"]\n```\nWas aber, wenn wir jeden einzelnen Schüler printen wollen? In diesem Fall müssten wir unsere Loops verschachteln, \num jede Teilliste durchlaufen zu können. Das würde folgendermassen aussehen:\n\n```python\n# iteriere durch jede Teilliste\nfor team in project_teams:\n  # iteriere über die Elemente in jeder Teilliste\n  for student in team:\n    print(student)\n```\n\nPrinted folgendes:\n\n```python\nAva\nSamantha\nJames\nLucille\nZed\nEdgar\nGabriel\n```\n\nAufgaben:\n\nFred & George's Geschäft mit den magischen Süssigkeiten läuft wie verrückt. Mittlerweile haben Sie bereits 3 verschiedene\nLäden eröffnet. Leider haben Sie nun die Übersicht über Ihre Verkäufe verloren und brauchen deshalb wieder Ihre Hilfe!\n\nFred & George haben Ihnen die Liste `sales_data` zur Verfügung gestellt, die die Anzahl der verschiedenen verkauften Süssigkeiten an den drei verschiedenen\nStandorten zeigt.\n\nIhr Auftrag lautet die Gesamtzahl der verkauften Süssigkeiten zusammen zu zählen. \n\n1. Definieren Sie zunächst eine Variable `sweets_sold` und setzen Sie sie auf Null.\n   \n2. Iterieren Sie über die Liste `sales_data`, indem Sie die folgenden Richtlinien befolgen:\n\n- Nennen Sie die temporäre Variable des for-Loops `location`.\n- printen Sie jede Standortliste.\n\n3. Erstellen Sie innerhalb unseres Loops für `sales_data` einen zweiten Loop, um über jedes Element der Unterliste `location` \n   zu iterieren. Addieren Sie den Wert des Elementes jeweils zu `sweets_sold`. Somit sollten Sie am Ende die Summe aller Zahlen\n   aus der verschachtelten Liste `sales_data` haben.\n\n4. Geben Sie den Wert von `sweets_sold` außerhalb der verschachtelten Schleife aus.\n",
+          "description_format" : "MD",
+          "task_type" : "output"
+        }
+      ],
+      "type" : "lesson"
+    }
+  ],
+  "version" : 13,
+  "edu_plugin_version" : "2022.5-2021.2-755"
+}

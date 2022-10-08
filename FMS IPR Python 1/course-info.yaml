@@ -1,0 +1,13 @@
+type: marketplace
+title: FMS IPR Python 1
+language: English
+summary: "In diesem Kurs behanden wir\n\n- Basics in Pycharm\n- Variablen\n- Kommentare\n\
+- Bedingungen \n-Listen\n\ngl & hf! (:"
+vendor:
+  name: Raphaelkubler
+programming_language: Python
+environment: unittest
+content:
+- Erste Schritte
+- Zahlentypen und Fehlermeldungen
+- Bedingungen

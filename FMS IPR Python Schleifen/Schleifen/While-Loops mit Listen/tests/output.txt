@@ -1,0 +1,5 @@
+I am learning about variables
+I am learning about control flow
+I am learning about loops
+I am learning about modules
+I am learning about classes

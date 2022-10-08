@@ -1,0 +1,365 @@
+{
+  "course_version" : 1,
+  "environment" : "unittest",
+  "summary" : "Tldr: Listen",
+  "title" : "FMS IPR Python Listen",
+  "programming_language" : "Python",
+  "language" : "en",
+  "course_type" : "Marketplace",
+  "vendor" : {
+    "name" : "Raphaelkubler"
+  },
+  "items" : [
+    {
+      "id" : 298695428,
+      "title" : "Listen",
+      "task_list" : [
+        {
+          "id" : 1633068827,
+          "name" : "Listen",
+          "files" : {
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "z0JNJZKJrjqKiC49QpFOR3h7e5NLxeAMpaRh9CHG0SmeX1QX+t0NmP/rXCd3Fgpd"
+            },
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eferBCJRUpIZ4ayufvWxucBIVjLzZKMwkqcQ/EFW2AB3M34vyBIcxinA34Pox9slgl7MVPcD/VmW8p4ELyaUfYyYyusnr3tXS01oEdkTNsnmFNlTJIs+WYk4aE7choHlfZFv5Pmka3zU9sxNzDX8xg=="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "Listen\n=======\nBeim Programmieren möchten wir oft mit einer Sammlung von Daten arbeiten. Damit wir nicht für jede Information eine eigene \nVariable benötigen gibt es in Python **Listen**.\n\nNehmen wir an, wir wollen eine Liste mit den Größen Ihrer Lieblingscharaktere aus Harry Potter erstellen:\n\n- Hermine ist 165 cm groß \n- Luna ist 157 cm groß \n- Neville ist 183 cm groß \n- Snape ist 185 cm groß \n  \nIn Python können wir eine Variable namens `heights` erstellen, um diese ganzen Zahlen in einer Liste zu speichern:\n\n`heights = [165, 157, 183, 185]` \n\nEine Liste beginnt und endet mit eckigen Klammern (`[` und `]`). Jedes Element (z. B. 157 oder 183) wird durch ein Komma (`,`) getrennt. \nEs ist _good praxis_, nach jedem Komma ein Leerzeichen ( ) einzufügen.\n\nAufgaben\n----------\n\n1. Mit erschrecken stellen Sie fest, dass Sie Alastor 'Mad Eye' Moody vergessen haben! Fügen Sie seine Grösse von 185 cm \nder Liste hinzu. Printen Sie die Liste.\n   \n2. Entfernen Sie den Kommentar vor der Liste `broken_list`. Beheben Sie den Fehler und printen Sie die Liste.\n",
+          "description_format" : "MD",
+          "task_type" : "output"
+        },
+        {
+          "id" : 1981660147,
+          "name" : "Listen 2.0",
+          "files" : {
+            "task.py" : {
+              "name" : "task.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "jYDdsLbeYzADkRhizR9Kg4f8743FJLgxtWiV2TQv+NfMKYMPKnrBXaQOoPKDsI/YmIncpNZsFkqrdcWjZBGuPfspM4p2Hf/Ft11rebtasu0="
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "XIlL2u+4gqNTqO7La77YdQTjn1YHMq4gonGgZk0sm4e2OyikErDYBXQftY1lQu6Db7Nv/Emb6F6Q+VcO/Tt5v9QB3Mafnk48sFDMfWyYZazkugqi2wmLamjAVb7+k2YBHCT4GjVm7/XyGkMqaMOQuxjOsgNcFftcW/mdjNl8UbULUmc+u9ccd0fjiFWqFl4DLfjoVESHh61LaXmXkTOAXT5nfMsAxt36kJ12N6jzjcFeVc+VZuJ3c+4MZdJSjHMJ2+cIn8xbCgonAIzmsBKBXl+vkBlZjmaEFlb/l8ydSY0="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "Listen 2.0\n=============\n\nListen können mehr als nur Zahlen enthalten.\n\nSchauen wir uns noch einmal das Beispiel von zuvor an.\n\n- Hermine ist 165 cm groß \n- Luna ist 157 cm groß \n- Neville ist 183 cm groß \n- Snape ist 185 cm groß \n\nAnstatt die Größe der einzelnen Charaktere zu speichern, können wir eine Liste mit ihren Namen erstellen:\n```python\nnames = [\"Hermine\", \"Luna\", \"Neville\", \"Snape\"]\n```\n\nWir können sogar mehrere Datentypen in einer Liste kombinieren. Diese Liste enthält beispielsweise sowohl eine Zeichenkette als auch eine ganze Zahl:\n\n```python\nmixed_list_string_number = [\"Hermine\", 165]\n```\nListen können in Python jeden Datentypen enthalten. Die folgende Liste enthält einen String, einen Int, einen Boolean und einen Float.\n```python\nmixed_list_common = [\"Mia\", 27, False, 0.5]\n```\n",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 2028136892,
+          "name" : "Leere Listen",
+          "files" : {
+            "task.py" : {
+              "name" : "task.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "jYDdsLbeYzADkRhizR9Kg4f8743FJLgxtWiV2TQv+NfMKYMPKnrBXaQOoPKDsI/YmIncpNZsFkqrdcWjZBGuPfspM4p2Hf/Ft11rebtasu0="
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "XIlL2u+4gqNTqO7La77YdQTjn1YHMq4gonGgZk0sm4e2OyikErDYBXQftY1lQu6Db7Nv/Emb6F6Q+VcO/Tt5v9QB3Mafnk48sFDMfWyYZazkugqi2wmLamjAVb7+k2YBHCT4GjVm7/XyGkMqaMOQuxjOsgNcFftcW/mdjNl8UbULUmc+u9ccd0fjiFWqFl4DLfjoVESHh61LaXmXkTOAXT5nfMsAxt36kJ12N6jzjcFeVc+VZuJ3c+4MZdJSjHMJ2+cIn8xbCgonAIzmsBKBXl+vkBlZjmaEFlb/l8ydSY0="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "Leere Listen\n=============\nEine Liste muss nicht unbedingt etwas enthalten. Wir können auch ganz einfach eine leere Liste erstellen:\n\n````python\nempty_list = []\n````\n\nWir erstellen eine leere Liste, wenn wir sie später füllen wollen (während das Programm läuft).\n",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 1912143148,
+          "name" : "Methoden",
+          "files" : {
+            "task.py" : {
+              "name" : "task.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "jYDdsLbeYzADkRhizR9Kg4f8743FJLgxtWiV2TQv+NfMKYMPKnrBXaQOoPKDsI/YmIncpNZsFkqrdcWjZBGuPfspM4p2Hf/Ft11rebtasu0="
+            },
+            "tests/test_task.py" : {
+              "name" : "tests/test_task.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "XIlL2u+4gqNTqO7La77YdQTjn1YHMq4gonGgZk0sm4e2OyikErDYBXQftY1lQu6Db7Nv/Emb6F6Q+VcO/Tt5v9QB3Mafnk48sFDMfWyYZazkugqi2wmLamjAVb7+k2YBHCT4GjVm7/XyGkMqaMOQuxjOsgNcFftcW/mdjNl8UbULUmc+u9ccd0fjiFWqFl4DLfjoVESHh61LaXmXkTOAXT5nfMsAxt36kJ12N6jzjcFeVc+VZuJ3c+4MZdJSjHMJ2+cIn8xbCgonAIzmsBKBXl+vkBlZjmaEFlb/l8ydSY0="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            },
+            "tests/__init__.py" : {
+              "name" : "tests/__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "Methoden\n=========\nIn den nächsten Übungen werden wir auf das Konzept einer **Methode** stoßen.\n\nIn Python gibt es für jeden Datentypen (String, Boolean, Listen etc.) eingebaute Funktionalitäten (z.B. um Daten zu erstellen, manipulieren oder sogar löschen). \nWir nennen eine eingebaute Funktionalität eine Methode.\n\nBei Listen haben die Methoden die Form von `list_name.method()`. Einige Methoden erfordern einen Eingabewert, der zwischen \ndie Klammern der Methode `( )` gesetzt wird.\n\nEin Beispiel für eine Listenmethode ist `.append()`. Mit dieser Methode können wir ein Element an das Ende einer Liste anfügen.\n\n```python\nappend_example = [ 'Dies', 'ist', 'ein']\nappend_example.append('Beispiel')\n \nprint(append_example)\n```\n\nPrinted folgendes:\n\n```python\n['Dies', 'ist', 'ein', 'Beispiel']\n```\n\n",
+          "description_format" : "MD",
+          "task_type" : "edu"
+        },
+        {
+          "id" : 633528951,
+          "name" : "Append",
+          "files" : {
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "LGhDR1hHX4UJnvpfPt0lB9GKt+UgGto+mpw9uB4SqpPz7tVsHkOdXmbrIUUDmTPqgJVd2vOc466q2wWAJo0jHQ=="
+            },
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eferBCJRUpIZ4ayufvWxucBIVjLzZKMwkqcQ/EFW2AAHs33EdUQYky1YwMy368PhNcoDpvQu25vgKPJexIF9AGG/hWPQ3oKO36AdMHOo9sVVWV5QowHfW00M6g8TrgWe"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "Append\n===========\nMit `.append()` können wir ein einzelnes Element zu einer Liste hinzufügen.\n\nNehmen wir an, wir haben eine leere Liste namens garden:\n\n```python\ngarden = []\n```\n\nMit `.append()` können wir das Element \"Tomaten\" hinzufügen:\n\n```python\ngarden.append(\"Tomaten\")\n \nprint(garten)\n```\n\nPrinted folgendes:\n\n```python\n['Tomatoes']\n```\n\nWenn wir `.append()` auf eine Liste anwenden, die bereits Elemente enthält, wird unser neues Element an das Ende der Liste angefügt:\n\n```python\n# Erstellen einer Liste\ngarden = [\"Tomaten\", \"Weintrauben\", \"Blumenkohl\"]\n \n# Anhängen eines neuen Elements\ngarden.append(\"Grüne Bohnen\")\nprint(garden)\n```\n\nPrinted folgendes:\n```python\n['Tomaten', 'Weintrauben', 'Blumenkohl', 'Grüne Bohnen']\n```\n\nAufgaben\n------------\n\nKrillin arbeitet in einem Gartenfachgeschäft namens Petal Power. Krillin hält die Bestellungen in einer Liste namens \n   `orders` fest.\n\n1. Verwenden Sie `print`, um die Bestellungen zu prüfen, die er heute erhalten hat.\n\n2. Krillin hat gerade eine neue Bestellung für \"Tulpen\" erhalten. Verwenden Sie `append`, um die Bestellungen hinzuzufügen.\n\n3. Eine weitere Bestellung ist eingetroffen! Benutze `append`, um \"Rosen\" zu Bestellungen hinzuzufügen.\n\n4. Printen Sie alle Bestellungen.\n\n",
+          "description_format" : "MD",
+          "task_type" : "output"
+        },
+        {
+          "id" : 1050347295,
+          "name" : "Zusammenfügen von Listen",
+          "files" : {
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "LGhDR1hHX4UJnvpfPt0lB9GKt+UgGto+mpw9uB4SqpNURe4HOViEsUeXAgeQr81726GyZ0f2DvfgaqRNpwHMtf5harUeZAVImTH2o55t788="
+            },
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eferBCJRUpIZ4ayufvWxucBIVjLzZKMwkqcQ/EFW2AAHs33EdUQYky1YwMy368PhNcoDpvQu25vgKPJexIF9AEWNfBt+9GR3idw+rZsjkcS3lZ9FT4PgWBzw6/ZpcRmmnX3jBNtH2xPrrdt71wYIf2ela69A3xdsFuyg7CZziGEgCJm3y9qQ+8FHI0rJ+JiY"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "Zusammenfügen von Listen\n==========================\nUm mehrere Listen zusammenzufügen können wir `+` verwenden. \n\nIm folgenden Beispiel betrachten wir die verkauften Produkte einer Bäckerei.\n\n```python\nitems_sold = [\"Kuchen\", \"Kekse\", \"Brot\"]\n```\n\nAngenommen, die Bäckerei möchte nun auch noch `\"Pralinen\"` und `\"Torten\"` verkaufen:\n\n```python\nitems_sold_new = items_sold + [\"Keks\", \"Torte\"]\nprint(artikel_verkauft_neu)\n```\n\nPrinted folgendes:\n\n```python\n['Kuchen', 'Keks', 'Brot', 'Keks', 'Torte']\n```\n\nIn diesem Beispiel haben wir eine neue Variable, `items_sold_new`, erstellt. Sie enthält sowohl die ursprünglich verkauften \nals auch die neuen Artikel enthält. Wir können die ursprüngliche Variable `items_sold` überprüfen und sehen, dass sie \nsich nicht geändert hat:\n\n```python\nprint(items_sold)\n```\nPrinted folgendes:\n\n```python\n['Kuchen', 'Keks', 'Brot']\n```\n\nAchtung: Wir können `+` nur mit anderen Listen verwenden. Wenn wir diesen Code eintippen:\n\n```python\nlist = [1, 2, 3]\nlist + 4\n```\n\nerhalten wir nämlich die folgende Fehlermeldung:\n\n```python\nTypeError: can only concatenate list (not \"int\") to list\n```\n\nWenn wir ein einzelnes Element mit `+` hinzufügen wollen, müssen wir es in eine Liste mit Klammern (`[]`) einfügen:\n\n```python\nmy_list + [4]\n```\n\nAufgaben\n-------\n\nKrillin überarbeitet gerade seine Liste `orders`, da er eine neue Bestellung für `\"Veilchen\"` und `\"Edelweisse\"`\nerhalten hat.\n\n1. Erstellen Sie eine neue Liste `new_orders` in der Sie die neuen Bestellungen speichern.\n\n2. Erstellen Sie eine neue Liste `all_orders`. Verwenden Sie `+` um Ihr die Werte von `order` und `new_orders` zuzuweisen.\n\n3. Printen Sie alle Bestellungen.\n\n4. Finden und beheben Sie den Fehler von `broken_list`.\n",
+          "description_format" : "MD",
+          "task_type" : "output"
+        },
+        {
+          "id" : 1364964985,
+          "name" : "Indizes",
+          "files" : {
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "KjI7cDoGfOWgDberFZwFTw=="
+            },
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eferBCJRUpIZ4ayufvWxucBIVjLzZKMwkqcQ/EFW2AD5lgLRDiNaaO79/h8UDQbfOKk3XC+3YBmlLz935mJrFaeU2CM9XbozuCIPpUAPmgbqlxrkhSHIomIsBj7e4IjjPuiXc1aHjdkZqmmUpLMvJFzsmDfCl3fALNeiwthvgc12Ybg8Wna7m4nGxDSYb8YS"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "Indizes\n==========\n\nWir führen Vorstellungsgespräche mit Kandidaten für eine Stelle. Wir rufen jeden Bewerber der Reihe nach an, \ndargestellt durch die folgede Python-Liste:\n\n```python\ncalls = [\"Juan\", \"Zofia\", \"Amare\", \"Ezio\", \"Ananya\"]\n```\n\nZuerst rufen wir \"Juan\" an, dann \"Zofia\", etc.\n\nIn Python nennen wir die Position eines Elements in einer Liste seinen **Index**.\n\nIn Python besitzt das erste Element in einer Liste den Index 0 und nicht 1.\n\nHier sind die Indexnummern für die Listenaufrufe:\n\n|Element| Index|\n|-------|-----|\n|\"Juan\" | 0\n|\"Zofia\"| 1\n|\"Amare\"| 2\n|\"Ezio\" | 3\n|\"Ananya\"| 4\n\nIn diesem Beispiel ist das Element mit dem Index 2 \"Amare\".\n\nWir können ein einzelnes Element aus einer Liste auswählen, indem wir eckige Klammern (`[]`) und den Index des Listenelements \nverwenden. \n\n```python\nprint(calls[2])\n```\n\nPrinted also folgendes:\n\n```python\nAmare\n```\n\nHinweis: Wenn Sie auf Elemente einer Liste zugreifen, müssen Sie einen int als Index verwenden. Wenn Sie einen Float verwenden, erhalten Sie einen Fehler. Dies kann besonders schwierig sein, wenn Sie Divisionen verwenden. Zum Beispiel wird `print(calls[4/2])` zu einem Fehler führen, weil `4/2` als Float `2.0` ausgewertet wird.\n\nUm dieses Problem zu lösen, können Sie mit der Funktion `int()` erzwingen, dass das Ergebnis Ihrer Division ein int ist. `int()` nimmt eine Zahl und entfernt das Dezimalkomma und alles danach. Zum Beispiel werden `int(5.9)` und `int(5.0)` beide zu `5`. Also ergeben `calls[int(4/2)]` denselben Wert wie `calls[2]`, während `calls[4/2]` zu einem Fehler führt.\n\nAufgaben\n-----------\n\n1. Verwenden Sie eckige Klammern, um die 4. Person aus der Liste `employees` auszuwählen. Speichern Sie sie in der Variablen \n   `employee_four` und printen Sie den Wert der Variable.\n\n2. Entfernen Sie das Kommentarzeichen. Was geschieht? Und warum?\n\n3. Die Auswahl eines Elements, das nicht existiert, erzeugt einen `IndexError`. Ändern Sie den Index an auf die grösste Zahl, \n   sodass Sie keinen `IndexError` erhalten.\n\n\n",
+          "description_format" : "MD",
+          "task_type" : "output"
+        },
+        {
+          "id" : 1744576739,
+          "name" : "Indizes 2.0",
+          "files" : {
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "YEjR9iEPQlJiG3hzSjIuCA=="
+            },
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eferBCJRUpIZ4ayufvWxuWrBZmK6TKQctwAe5ytqCnkeaFcLE2GBr/ZOfCGo7jXNMPSJkwYuOMcy5VJ9W7L+5I2X22GF+YfZB7CtfU06IdCVCpVnmd7GA6D1xksV63F4KMenSVQi16MYl/rBetcK3odOo5VGXie51jp5WnrkcOCewgy8U+osMttO2yJ1nGpBGDZcPyGd9xGKH24qX+jLOA=="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "Indizes 2.0\n=============\n\nWir können den Index `-1` verwenden, um das letzte Element einer Liste auszuwählen. Dafür müssen wir auch nicht wissen, wie viele \nElemente in einer Liste enthalten sind.\n\n```python\npancake_recipe = [\"Eier\", \"Mehl\", \"Butter\", \"Milch\", \"Zucker\", \"Liebe\"]\n```\n\nWenn wir den Index `-1` wählen, erhalten wir das letzte Element, `\"Liebe\"`.\n\n```python\nprint(pfannkuchen_rezept[-1])\n```\n\nPrinted also folgendes:\n\n```python\nLiebe\n```\n\nDies ist gleichbedeutend mit der Auswahl des Elements mit dem Index 5:\n\n```python\nprint(pfannkuchen_rezept[5])\n```\n\nPrinted ebenfalls:\n\n```python\nLiebe\n```\n\nHier sind die negativen Indexzahlen für unsere Liste:\n\n|Element | Index|\n|--------|------|\n|\"Eier\"| -6\n|\"Mehl\"| -5\n|\"Butter\"| -4\n|\"Milch\"| -3\n|\"Zucker\"| -2\n|\"Liebe\"| -1\n\nAufgabe\n---------\n\n1. Erstellen Sie eine Variable `last_element` und verwenden Sie den Index `-1` um Ihr das letzte Element der Liste zuzuweisen.\nPrinten Sie anschliessend `last_element`.\n",
+          "description_format" : "MD",
+          "task_type" : "output"
+        },
+        {
+          "id" : 1428137777,
+          "name" : "Verändern von Listen",
+          "files" : {
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "G253GMepPNj/Ko/JZ8QzlMo0Lo21M8f+Ocxs16UsFUfU3R1Two7g7HbS/AnMhUSE"
+            },
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eferBCJRUpIZ4ayufvWxuWrBZmK6TKQctwAe5ytqCnkeaFcLE2GBr/ZOfCGo7jXN7CS3Dc7t/FfngtrQTwhODbjb1eEDBzavQG7GYUVnoAc="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "Verändern von Listen\n=================\n\nKehren wir zu unserem Garten zurück.\n\n```python\ngarden = [\"Tomaten\", \"Grüne Bohnen\", \"Blumenkohl\", \"Trauben\"]\n```\n\nLeider haben wir vergessen, unseren Blumenkohl zu gießen. \n\nZum Glück kam unser Freund Krillin von Petal Power zur Rettung. Krillin hat uns ein paar Erdbeersamen geschenkt. Wir \nwerden den Blumenkohl durch unsere neuen Erdbeersamen ersetzen.\n\nWir müssen die Liste anpassen, um die Änderung in unserer Gartenliste zu berücksichtigen. Um einen Wert in einer Liste \nzu ändern, weisen Sie den Wert mithilfe des spezifischen Index neu zu.\n\n```python\ngarten[2] = \"Erdbeeren\"\n\nprint(garten)\n```\n\nPrinted folgendes:\n\n```python\n[\"Tomaten\", \"Grüne Bohnen\", \"Erdbeeren\", \"Trauben\"]\n```\n\nAufgaben\n------------\n\nWir haben beschlossen, einige unserer Dinge zu verkaufen. Es hat sich in unserer Stadt herumgesprochen, und die Leute \n   sind daran interessiert, etwas von unserem köstlichen Gemüse und Obst zu bekommen.\n\nUm sicherzustellen, dass wir an alle unsere neuen Kunden verkaufen können, möchten wir eine Warteliste erstellen!\n\n1. Definieren Sie eine Liste namens `garden_waitlist`. Die Liste soll die Namen unserer Kunden enthalten (in der Reihenfolge): \"Krillin\", \"Adam\", \"Sonny\" und \"Alisha\".\n\n\"Adam\" hat beschlossen, dass sein Kühlschrank im Moment zu voll ist, und hat uns gebeten, ihn von der Warteliste zu streichen und Platz für einen unserer anderen Stadtbewohner zu schaffen.\n\n2. Ersetzen Sie \"Adam\" durch unseren anderen interessierten Kunden \"Calla\".\n\nAlisha stellte fest, dass sie bereits mit allen Artikeln, die wir verkaufen, eingedeckt war. Sie bittet uns, sie durch ihre Freundin Alex zu ersetzen, der gerade die Artikel ausgegangen sind.\n\n3. Ersetzen Sie \"Alisha\" durch \"Alex\", indem Sie einen negativen Index verwenden und printen Sie die Liste.\n",
+          "description_format" : "MD",
+          "task_type" : "output"
+        },
+        {
+          "id" : 869986674,
+          "name" : "Remove",
+          "files" : {
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "Ycp3Zawpczab3KN1AD2mV2JurS1qXJqxG6tuJtGicw2tGLM37FehYSx1/uOQ51XL1BS0jM4l2OSC40RA9ZLDajM5CLIg97pHfqkL0q/E6FA="
+            },
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eferBCJRUpIZ4ayufvWxuWrBZmK6TKQctwAe5ytqCnkeaFcLE2GBr/ZOfCGo7jXN7CS3Dc7t/FfngtrQTwhODbjb1eEDBzavQG7GYUVnoAc="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "Remove\n=========\n\nMit `.remove()` können wir Elemente aus einer Liste entfernen.\n\nNehmen wir an, wir haben eine Liste namens `shopping_line`, die ein Regal in einem Lebensmittelgeschäft darstellt:\n\n```python\nshopping_line = [\"Cole\", \"Kip\", \"Chris\", \"Sylvana\"]\n```\n\nWir könnten `\"Chris\"` entfernen, indem wir die Methode `.remove()` verwenden:\n\n```python\nshopping_line.remove(\"Chris\")\n \nprint(shopping_line)\n```\n\nWir sehen, dass `\"Chris\"` nicht mehr enthalten ist:\n\nWir können `.remove()` auch auf eine Liste anwenden, die doppelte Elemente enthält.\n\nDabei wird nur das erste Vorkommen des passenden Elements entfernt:\n\n```python\n# Erstellen Sie eine Liste\nshopping_line = [\"Cole\", \"Kip\", \"Chris\", \"Sylvana\", \"Chris\"]\n \n# Ein Element entfernen\nshopping_line.remove(\"Chris\")\nprint(einkauf_zeile)\n```\n\nPrinted folgendes:\n\n```python\n[\"Cole\", \"Kip\", \"Sylvana\", \"Chris\"]\n```\n\nAufgaben\n---------\n\nWir haben beschlossen, in das Lebensmittelgeschäft einzusteigen. Unsere Managerin Calla hat beschlossen, alle Inventareinkäufe \nin einer Liste zu speichern, damit wir wissen, welche Produkte bestellt werden müssen.\n\n1. Erstellen Sie eine Liste namens `order_list` mit den folgenden Werten (in dieser Reihenfolge):\n\"Sellerie\", \"Orangensaft\", \"Orange\", \"Fladenbrot\".\n \nWir haben Glück! Wir haben tatsächlich eine Kiste \"Fladenbrot\" in unserem Lager gefunden. Wir brauchen es nicht mehr zu \nbestellen.  \n\n2. Entfernen wir es aus `order_list` mit der Methode `.remove()`. Printen Sie die Liste.\n\nUnser Geschäft ist zu einem großen Erfolg geworden! Wir haben beschlossen, einen zweiten Laden zu eröffnen und benötigen eine neue Bestellliste. Calla hat uns den Gefallen getan, eine solche zusammenzustellen.\n\n3. Erstellen Sie eine neue Liste mit dem Namen `new_store_order_list` und weisen Sie ihr die folgenden Werte zu (in der Reihenfolge):\n\"Orange\", \"Apfel\", \"Mango\", \"Brokkoli\", \"Mango\"\n\nHinweis: Unsere zweite Filiale wird zwei Bestellungen von Mangos benötigen, daher wird der Wert dupliziert.\n\nWir haben wieder Glück! Wir haben tatsächlich eine Kiste \"Mango\" in unserem Lager gefunden.\nWir werden nicht mehr zwei Bestellungen aufgeben müssen.\n\n4. Entfernen Sie eine Mange aus `new_store_order_list` und printen Sie die Liste.\n",
+          "description_format" : "MD",
+          "task_type" : "output"
+        },
+        {
+          "id" : 1061052686,
+          "name" : "2D Listen",
+          "files" : {
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "7zD8A64jlBi7JpC/1VqCPHG4wtO+OzIs23vevvAUOmPecdaZ78hmyZtorjJ0ubqgwaZkVIu2Y6AOMdhNDC9rjlFVNgB3IDUZsQ/D00eeKIkLP6kpBAdGpkAgFAqwr2xG"
+            },
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eferBCJRUpIZ4ayufvWxuY/rReVOr0ID/mO6kbQGcIEbHJifrB7A0qCBVCWQ8GZFXD/OdHIRFz6w+/M6Fkan5O5yIMI5Q4owK9uiad5LzJHWWY6k+X/PNebDHc8F9Ev2QjfaHj/koA4NAjon+EjSrstN9NWRnxBNfuYvYrie5M8="
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "2D Listen\n=========\n\nWir haben gesehen, dass die Elemente in einer Liste Zahlen oder Strings sein können. \nListen können aber auch andere Listen enthalten! Wir bezeichnen diese im Allgemeinen als 2D (zweidimensionale) Listen.\n\nBetrachten wir noch einmal das Beispiel einer Klassengröße:\n\n- Hermine ist 165 cm groß \n- Luna ist 157 cm groß \n- Neville ist 183 cm groß \n- Snape ist 185 cm groß \n\nZuvor haben wir gesehen, dass wir eine Liste erstellen können, die sowohl Hermines Namen als auch ihre Größe enthält:\n\n```python\nnoelle = [\"Hermine\", 165]\n```\n\nWir können mehrere dieser Listen in einer Liste zusammenfassen, so dass jeder Eintrag in der Liste einen Schüler und seine Größe darstellt:\n\n```python\nheights = [[\"Hermine\", 165], [\"Luna\", 157], [\"Neville\", 183], [\"Snape\", 185]]\n```\n\nWir werden oft feststellen, dass eine 2D Liste eine sehr gute Struktur für die Darstellung von Gittern \nwie bei Spielen wie Tic-Tac-Toe ist.\n\n```python\n#Eine 2d-Liste mit drei Listen in jedem der Indizes. \ntic_tac_toe = [\n            [[\"X\"],[\"O\"],[\"X\"]], \n            [[\"O\"],[\"X\"],[\"O\"]], \n            [[\"O\"],[\"O\"],[\"X\"]]\n]\n```\n\nAufgabe\n----------\n\n1. Fügen Sie der Liste \"Hagrid\" mit seiner Grösse von 351 cm hinzu und printen Sie das Ergebnis.\n",
+          "description_format" : "MD",
+          "task_type" : "output"
+        },
+        {
+          "id" : 960734514,
+          "name" : "Indizes in 2D Listen",
+          "files" : {
+            "tests/output.txt" : {
+              "name" : "tests/output.txt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "JmJ7gzyUUZV4M9NJEqaQAtPQ3LWyD5HzR7HI2Ixh7jEY8cidEaynN8sVioA9Czh2Bw8IR1FLtoFfVPUHQ+JjMBsG7fAsOFaEIXLAj4HrPFIb9aQkA7iTb4xvJ3E+4ezN"
+            },
+            "main.py" : {
+              "name" : "main.py",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "eferBCJRUpIZ4ayufvWxuWrBZmK6TKQctwAe5ytqCnkeaFcLE2GBr/ZOfCGo7jXNENF1Xpqgxuetei9mSLXrXCbo72tezX+OKgv2RFd4g0pbBdAH7R5v4hSr5tSrCKacKrt2kz1QCZURAYhHOz/ldqLmGDHAkrgzDJ8zNcyjb15nYybb5uQ6N5TG1U7tWjbQ"
+            },
+            "__init__.py" : {
+              "name" : "__init__.py",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "BPrPxsoPO0ddRfXxWyDgbA=="
+            }
+          },
+          "description_text" : "Indizes in 2D Listen\n===================\n\nKehren wir zu unserem Beispiel von zuvor zurück:\n\n```python\nheights = [[\"Hermine\", 165], [\"Luna\", 157], [\"Neville\", 183]]\n```\n\nAuf 2D Listen kann ähnlich wie auf ihr eindimensionales Gegenstück zugegriffen werden. Anstatt ein einzelnes Klammerpaar \n`[ ]` zu verwenden, werden wir für jede weitere Dimension eine zusätzliche Klammer verwenden.\n\nWenn wir auf die Grösse von \"Luna\" zugreifen wollen:\n\n```python\nheight_luna = heights[1][1] \nprint(height_luna)\n```\n\nPrinted folgendes:\n\n```python\n157\n```\n\nHier sind die Indexnummern für den Zugriff auf die Daten der Liste heights:\n\n|Element| Index|\n|-------|------|\n|\"Hermine\"| heights[0][0]\n|165| heights[0][1]\n|\"Luna\"| heights[1][0]\n|157| heights[1][1]\n|\"Neville\"| heights[2][0]\n|183 |heights[2][1]\n\n\nAufgaben\n------------\n\nWir möchten für alle Charaktere ihr zugehöriges Haus speichern.\n\n1. Erstellen Sie mithilfe der bereitgestellten Tabelle eine 2d Liste namens name_and_house, um die Daten darzustellen.\n\n|Name| Haus\n|----|----|\n|\"Hermine\"| \"Gryffindor\"\n|\"Luna\" |\"Ravenclaw\"\n|\"Neville\"| \"Gryffindor\"\n\n2. Printen Sie die Liste.\n\n3. Printen Sie das Haus von Luna.\n\n",
+          "description_format" : "MD",
+          "task_type" : "output"
+        }
+      ],
+      "type" : "lesson"
+    }
+  ],
+  "version" : 13,
+  "edu_plugin_version" : "2022.5-2021.2-755"
+}
