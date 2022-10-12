@@ -1,0 +1,2 @@
+['Sellerie', 'Orangensaft', 'Orange']
+['Orange', 'Apfel', 'Brokkoli', 'Mango']
