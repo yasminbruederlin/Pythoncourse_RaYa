@@ -1,7 +1,7 @@
 Remove
 =========
 
-Mit `.remove()` können wir Elemente aus einer Liste entfernen.
+Mit `.remove()` (Listenmethode) können wir gezielt Elemente aus einer Liste entfernen.
 
 Nehmen wir an, wir haben eine Liste namens `shopping_line`, die ein Regal in einem Lebensmittelgeschäft darstellt:
 

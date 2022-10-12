@@ -14,8 +14,8 @@ In Python können wir eine Variable namens `heights` erstellen, um diese ganzen 
 
 `heights = [165, 157, 183, 185]` 
 
-Eine Liste beginnt und endet mit eckigen Klammern (`[` und `]`). Jedes Element (z. B. 157 oder 183) wird durch ein Komma (`,`) getrennt. 
-Es ist _good praxis_, nach jedem Komma ein Leerzeichen ( ) einzufügen.
+Eine Liste beginnt und endet mit eckigen Klammern `[` und `]`. Jedes Element (z. B. 157 oder 183) wird durch ein Komma ~~(`,`)~~ getrennt. 
+Es ist _good praxis_, nach jedem Komma ein Leerzeichen ~~( )~~ einzufügen.
 
 Aufgaben
 ----------
@@ -23,4 +23,4 @@ Aufgaben
 1. Mit erschrecken stellen Sie fest, dass Sie Alastor 'Mad Eye' Moody vergessen haben! Fügen Sie seine Grösse von 185 cm 
 der Liste hinzu. Printen Sie die Liste.
    
-2. Entfernen Sie den Kommentar vor der Liste `broken_list`. Beheben Sie den Fehler und printen Sie die Liste.
+2. Entfernen Sie den Hashtag (Kommentar) vor der Liste `broken_list`. Beheben Sie den Fehler und printen Sie die Liste.

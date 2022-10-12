@@ -34,4 +34,4 @@ Da es aber keine Variable ist, wird keine Definition gefunden und der `NameError
 ## Aufgabe
 
 
-Lassen Sie das Programm laufen und korrigieren Sie anschliessend die Fehler.
+Lassen Sie das Programm laufen, lesen Sie die angezeigte Fehlermeldung und korrigieren Sie anschliessend die Fehler.

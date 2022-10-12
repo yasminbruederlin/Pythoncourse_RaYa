@@ -23,3 +23,16 @@ Printed folgendes:
 ['Dies', 'ist', 'ein', 'Beispiel']
 ```
 
+Auch auf Strings können diverse Methoden angewendet werden. 
+Folgender Code erzeugt die Ausgabe der Zahl 2. 
+
+````python
+txt = "I love apples, apple are my favorite fruit"
+
+x = txt.count("apple")
+
+print(x)
+````
+
+#Aufgabe
+Recherchieren Sie zu Stringmethoden. Können Sie mit der passenden Methode den ersten Buchstaben des Namens gross schreiben?

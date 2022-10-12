@@ -1,0 +1,42 @@
+Anpassungen Grobstruktur Pythonkurs - Vorschläge und Gedanken
+
+Erste Schritte: 
+	- Variablen vor Strings? 
+	- Variablentypen ausgeben lassen mit der Funktion type()
+	- User Input und Fehlermeldungen hier hin? 
+
+Zahlentypen und Fehlermeldungen: 
+	- neuer Namensvorschlag: Rechnen mit Variablen 
+	- Rechnen mit Python an den Anfang des Abschnittes? 
+	- Plus-Gleich noch -=, /= etc. anfügen?
+
+Bedingungen:
+	- gute Einteilung
+	- Evtl. "Verzweigungen" anstelle "Bedingungen"
+
+Listen:
+	- Listen 2.0 in Listen nehmen, da keine Übung bei 2.0 (evtl. broken_list als Liste mit untersch. Datentypen machen)
+	- Methoden: evtl. aunoch ein Beispiel zu String-Methoden und eine Übung dazu (
+	- Verketten von Listen oder Listenverkettung (anstelle Zusammenfügen von Listen)?
+	- Verändern von Listen --> "Listeninhalte updaten"?
+	- 2D Listen als freiwillige Vertiefung?
+
+Schleifen (turtle integrieren?)
+	- Endlosschleifen: Hint2 und alles danach.. weg?  
+	- Verschachtelte Loops als freiwillige Vertiefung?
+
+Funktionen: 
+	- Einführung und Motivation zusammennehmen und kürzen
+	- Verschiedene Arten von Argumenten würde ich wieder freiwillig als Erweiterung kennzeichnen.. 
+	- Built-in Funktionen direkt nach Motivation! zusätzlich type() als weitere Funktion für die Ausgabe des Datentypes
+	- "Sichtbarkeit" anstelle "Scope"?
+	- Return mit einer Analogie ausschmücken.. dieses Konzept "zurückgeben" haben bei mir viele nicht verstanden
+	- 11 Mehrere Returns als freiwillige Vertiefung (bei mir)
+
+Allgemeine Anmerkungen/Ideen: 
+	- Turtle integrieren (zb bei Schleifen, Funktionen) für visuelles Feedback. 
+	- Hints verwenden bei Zusatzfragen/Aufgaben im Text ohne direkte Überprüfung durch den Test
+	- Teilweise ist der Testordner noch sichtbar
+	- Deutsch / Englisch .. teilweise gemischt.. so lassen oder konsequent auf Deutsch?
+	- evtl. Ordner für Bilder anlegen (sorry, bin en Ordnigsfreak)
+	
