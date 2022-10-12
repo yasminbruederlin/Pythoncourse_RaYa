@@ -1,0 +1,19 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: Zahlen die nur bei  Berechnungen verwendet werden können.
+  is_correct: false
+- text: Namen die unterschiedlichen Objekten zugeordnet und im Code referenziert werden
+    können.
+  is_correct: true
+- text: Codeschnippsel für die Anzeige auf dem Bildschirm
+  is_correct: false
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: question.py
+  visible: true
+  learner_created: false
+status: Unchecked
+record: -1
+custom_name: Frage 5

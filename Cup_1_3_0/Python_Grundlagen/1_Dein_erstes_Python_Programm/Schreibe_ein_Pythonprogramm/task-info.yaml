@@ -1,0 +1,13 @@
+type: theory
+custom_name: Schreibe ein Pythonprogramm
+files:
+- name: task.py
+  visible: true
+  text: print('Hallo Welt')
+  learner_created: false
+- name: img/camtasia.gif
+  visible: false
+  learner_created: false
+status: Unchecked
+record: -1
+post_submission_on_open: true

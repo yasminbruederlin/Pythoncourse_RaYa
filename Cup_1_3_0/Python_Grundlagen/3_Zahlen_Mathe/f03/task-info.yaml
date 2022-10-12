@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: 4 * 5 - 2 = 12 und nicht 18 ergibt
+  is_correct: false
+- text: 4 * 5 - 2 einen Laufzeitfehler generiert
+  is_correct: false
+- text: 4 * 5 - 2 = 18 und nicht 12 ergibt
+  is_correct: true
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: question.py
+  visible: true
+  text: |2+
+
+  learner_created: false
+status: Unchecked
+record: -1
+custom_name: Frage 3

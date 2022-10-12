@@ -1,0 +1,26 @@
+type: theory
+custom_name: Microbit Kommunikationstest
+files:
+- name: communication_test.py
+  visible: true
+  text: |-
+    from microbit_wings import *  # importiere die benötigten Bibliotheken
+
+    microbit.open()  # öffne den Kommunikationskanal zum Microbit
+
+    microbit.leds_update(HAPPY)  # beschreibe die LEDs inklusive Update des Microbit
+
+    microbit.close()  # schliesse den Kommunikationskanal zum Microbit
+  learner_created: false
+- name: img/happy.png
+  visible: false
+  learner_created: false
+- name: img/vimeo_mac_uart_zuweisung_microbit.png
+  visible: false
+  learner_created: false
+- name: img/vimeo_win_uart_zuweisung_microbit.png
+  visible: false
+  learner_created: false
+status: Unchecked
+record: -1
+post_submission_on_open: true

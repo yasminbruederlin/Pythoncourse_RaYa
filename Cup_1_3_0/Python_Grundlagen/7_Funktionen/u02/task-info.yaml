@@ -1,0 +1,64 @@
+type: edu
+custom_name: Übung 2 Parameterübergabe
+files:
+- name: tests.py
+  visible: false
+  text: |
+    from test_helper import run_common_tests, failed, get_answer_placeholders, passed
+
+
+    def test_window():
+        window = get_answer_placeholders()[0]
+        if 'square' in window and 'def ' in window:
+            passed()
+        else:
+            failed('Bennene die Funktion \'square\'.')
+
+
+    def test_column():
+        window = get_answer_placeholders()[0]
+        if ':' in window:
+            passed()
+        else:
+            failed('Vergiss nicht dan Doppeltpunkt am Ende der Zeile.')
+
+
+    if __name__ == '__main__':
+        run_common_tests()
+        test_column()
+        test_window()
+  learner_created: false
+- name: param_args.py
+  visible: true
+  placeholders:
+  - offset: 166
+    length: 100
+    placeholder_text: Definiere eine funktion mit dem Namen 'square', welche den Quadrant
+      einer mitgegebenen Zahl ausgiebt
+    initial_state:
+      length: 100
+      offset: 166
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: 'def square(x):'
+  text: |
+    def foo(x):  # x ist ein Funktions-Parameter
+        print('x = ' + str(x))
+
+
+    foo(5)  # gib 5 an foo() mit. Hier ist 5 ein Argument, welches an foo weitergegeben wird.
+
+
+    Definiere eine funktion mit dem Namen 'square', welche den Quadrant einer mitgegebenen Zahl ausgiebt
+        print(x ** 2)
+
+
+    square(4)
+    square(8)
+    square(15)
+    square(23)
+    square(42)
+  learner_created: false
+status: Unchecked
+record: -1

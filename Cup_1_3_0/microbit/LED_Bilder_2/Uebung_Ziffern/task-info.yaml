@@ -1,0 +1,19 @@
+type: theory
+custom_name: Übungen Ziffern
+files:
+- name: img/exercise.gif
+  visible: false
+  learner_created: false
+- name: img/solution.png
+  visible: false
+  learner_created: false
+- name: exercise_numbers.py
+  visible: true
+  text: |-
+    from microbit_wings import *  # importiere die benötigten Bibliotheken
+
+    print('your solution')
+  learner_created: false
+status: Unchecked
+record: -1
+post_submission_on_open: true

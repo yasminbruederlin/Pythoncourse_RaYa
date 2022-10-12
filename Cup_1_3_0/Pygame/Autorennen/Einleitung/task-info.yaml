@@ -1,0 +1,15 @@
+type: theory
+files:
+- name: img/solution.png
+  visible: false
+  learner_created: false
+- name: introduction.py
+  visible: true
+  text: print('introduction')
+  learner_created: false
+- name: img/camtasia.gif
+  visible: false
+  learner_created: false
+status: Unchecked
+record: -1
+post_submission_on_open: true

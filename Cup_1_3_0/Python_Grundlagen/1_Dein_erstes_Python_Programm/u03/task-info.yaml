@@ -1,0 +1,44 @@
+type: edu
+custom_name: Übung 3 Terminalausgabe
+files:
+- name: tests.py
+  visible: false
+  text: |
+    from test_helper import run_common_tests, failed, passed, get_answer_placeholders
+
+
+    def test_initial():
+        window = get_answer_placeholders()[0]
+        if window == 'schreibe hier':
+            failed('Du solltest die Datei bearbeiten')
+        else:
+            passed()
+
+
+    if __name__ == '__main__':
+        run_common_tests()
+        test_initial()
+  learner_created: false
+- name: terminal.py
+  visible: true
+  placeholders:
+  - offset: 265
+    length: 13
+    placeholder_text: schreibe hier
+    initial_state:
+      length: 13
+      offset: 265
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: my_decision, my_number, my_name
+  text: |
+    my_number = 1234  # Definition einer Integervariablen
+    my_name = 'Peter Müller'  # Definition einer Stringvariablen
+    my_decision = True  # Definition einer Boolvariablen
+    print(my_number, my_name, my_decision)  # Ausgabe unterschiedlicher Variablen im Terminal
+
+    print(schreibe hier)
+  learner_created: false
+status: Unchecked
+record: -1

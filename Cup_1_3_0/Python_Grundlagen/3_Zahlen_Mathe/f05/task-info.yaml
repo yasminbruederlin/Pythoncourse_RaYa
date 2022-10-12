@@ -1,0 +1,18 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: abs(-42.42)
+  is_correct: true
+- text: '|-42.42|'
+  is_correct: false
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: question.py
+  visible: true
+  text: |2+
+
+  learner_created: false
+status: Unchecked
+record: -1
+custom_name: Frage 5

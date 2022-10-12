@@ -1,0 +1,16 @@
+type: output
+custom_name: Frage 4
+files:
+- name: output.txt
+  visible: true
+  text: |
+    3.14
+  learner_created: false
+- name: question.py
+  visible: true
+  text: |-
+    pi = 3.14159265359
+    print()
+  learner_created: false
+status: Unchecked
+record: -1

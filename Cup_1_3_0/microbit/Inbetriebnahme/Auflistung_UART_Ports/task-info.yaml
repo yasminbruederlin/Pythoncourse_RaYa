@@ -1,0 +1,23 @@
+type: theory
+custom_name: Auflistung der UART Ports auf dem PC/Mac
+files:
+- name: list_uart_ports.py
+  visible: true
+  text: |
+    from microbit_wings import *  # importiere die benötigten Bibliotheken
+
+    print('verfügbare Ports auf diesem Rechner:')
+    print(get_serial_ports())  # zeige die verfügbaren Ports im Terminal
+  learner_created: false
+- name: img/connection_uart_system_bw.png
+  visible: false
+  learner_created: false
+- name: img/vimeo_mac_uart_zuweisung_microbit.png
+  visible: false
+  learner_created: false
+- name: img/vimeo_win_uart_zuweisung_microbit.png
+  visible: false
+  learner_created: false
+status: Unchecked
+record: -1
+post_submission_on_open: true

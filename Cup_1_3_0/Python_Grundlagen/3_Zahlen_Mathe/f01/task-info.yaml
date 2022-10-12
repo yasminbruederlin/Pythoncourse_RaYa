@@ -1,0 +1,22 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: long
+  is_correct: false
+- text: int
+  is_correct: true
+- text: str
+  is_correct: false
+- text: float
+  is_correct: true
+- text: num
+  is_correct: false
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: question.py
+  visible: true
+  learner_created: false
+status: Unchecked
+record: -1
+custom_name: Frage 1

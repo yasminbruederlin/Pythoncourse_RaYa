@@ -1,0 +1,63 @@
+type: edu
+custom_name: Übung 3 Standardparameterwerte
+files:
+- name: default_parameter.py
+  visible: true
+  placeholders:
+  - offset: 159
+    length: 84
+    placeholder_text: füge der Funktion Parameter hinzu, benutze einen Standardwert
+      für den Parameter name
+    initial_state:
+      length: 84
+      offset: 159
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: subject='Anna', name='Noah'
+  text: |
+    def multiply_by(a, b=2):
+        return a * b
+
+
+    print(multiply_by(3, 47))
+    print(multiply_by(3))    # call function using default value for b parameter
+
+
+    def hello(füge der Funktion Parameter hinzu, benutze einen Standardwert für den Parameter name):
+        print(f'Hallo {subject:s}! Mein Name ist {name:s}')
+
+
+    hello('PyCharm', 'Anna')  # rufe die Funktion 'hello' mit 'PyCharm als subject und 'Anna' als Name
+    hello('PyCharm')          # rufe die Funktion 'hello' mit 'PyCharm als subject und dem Standardwert 'Noah' als Name
+    hello()                   # rufe die Funktion ohne Angabe der Funktionsparameter
+  learner_created: false
+- name: tests.py
+  visible: false
+  text: |
+    from test_helper import run_common_tests, failed, passed, get_answer_placeholders
+
+
+    def test_window():
+        window = get_answer_placeholders()[0]
+        if "=" in window:
+            passed()
+        else:
+            failed("Füge den Parametern Standardwerte hinzu.")
+
+
+    def test_window_names():
+        window = get_answer_placeholders()[0]
+        if "subject" in window and "name" in window:
+            passed()
+        else:
+            failed("Füge den Parametern Standardwerte hinzu.")
+
+
+    if __name__ == '__main__':
+        run_common_tests()
+        test_window()
+        test_window_names()
+  learner_created: false
+status: Unchecked
+record: -1

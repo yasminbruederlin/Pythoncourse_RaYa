@@ -1,0 +1,21 @@
+type: theory
+custom_name: Betrachtung von Variablenwerten
+files:
+- name: task.py
+  visible: true
+  text: |+
+    # Zahl
+    a = 12
+    b = 3.141
+    print(a)
+    print(b)
+
+    # Zeichenkette => '' und "" können gleichwertig betrachtet werden
+    c = 'abc'
+    d = "def"
+    print(c, d)
+
+  learner_created: false
+status: Unchecked
+record: -1
+post_submission_on_open: true

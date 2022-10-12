@@ -1,0 +1,22 @@
+type: theory
+custom_name: Übung LED Bilder 1
+files:
+- name: exercise.py
+  visible: true
+  text: |-
+    from microbit_wings import *  # importiere die benötigten Bibliotheken
+
+    print('your solution')
+  learner_created: false
+- name: img/solution.png
+  visible: false
+  learner_created: false
+- name: img/Uebung_LED_Bild_1.png
+  visible: false
+  learner_created: false
+- name: img/exercise_1.gif
+  visible: false
+  learner_created: false
+status: Unchecked
+record: -1
+post_submission_on_open: true

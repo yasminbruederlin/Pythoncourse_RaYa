@@ -1,0 +1,32 @@
+type: theory
+custom_name: Wiederholung (for Schlaufe)
+files:
+- name: repeat_for.py
+  visible: true
+  text: |
+    from microbit_wings import *  # importiere die benötigten Bibliotheken
+
+    microbit.open()  # öffne den Kommunikationskanal zum Microbit
+
+    for i in range(0, 4, 1):  # wiederhole 4 mal
+        microbit.leds_update(DIAMOND)  # beschreibe die LEDs inklusive Update des Microbit
+        sleep(0.25)  # pausiere für 0.25s
+        microbit.leds_update(DIAMOND_SMALL)  # beschreibe die LEDs inklusive Update des Microbit
+        sleep(0.25)  # pausiere für 0.25s
+
+    microbit.leds_clear_all_update()  # lösche alle LEDs und aktualisiere den Microbit
+
+    microbit.close()  # schliesse den Kommunikationskanal zum Microbit
+  learner_created: false
+- name: img/repeat_for.gif
+  visible: false
+  learner_created: false
+- name: img/solution.png
+  visible: false
+  learner_created: false
+- name: img/repeat_for_nsd.png
+  visible: false
+  learner_created: false
+status: Unchecked
+record: -1
+post_submission_on_open: true

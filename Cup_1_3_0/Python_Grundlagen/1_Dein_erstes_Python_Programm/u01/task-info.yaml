@@ -1,0 +1,42 @@
+type: edu
+custom_name: Übung 1 Hallo Welt
+files:
+- name: tests.py
+  visible: false
+  text: |
+    from test_helper import run_common_tests, failed, passed, get_answer_placeholders
+
+
+    def test_initial():
+        window = get_answer_placeholders()[0]
+        if window == 'gib deinen Namen ein':
+            failed('Du solltest die Datei bearbeiten')
+        else:
+            passed()
+
+
+    if __name__ == '__main__':
+        run_common_tests('Gib deinen Namen ein')
+        test_initial()
+  learner_created: false
+- name: img/vimeo_pycharm_entwicklungsumgebung.png
+  visible: false
+  learner_created: false
+- name: hello_world.py
+  visible: true
+  placeholders:
+  - offset: 34
+    length: 20
+    placeholder_text: gib deinen Namen ein
+    initial_state:
+      length: 20
+      offset: 34
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: Pascal
+  text: |
+    print("Hallo, Welt! Mein Name ist gib deinen Namen ein")
+  learner_created: false
+status: Unchecked
+record: -1

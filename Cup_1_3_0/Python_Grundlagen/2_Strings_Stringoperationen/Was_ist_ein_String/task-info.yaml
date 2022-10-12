@@ -1,0 +1,16 @@
+type: theory
+custom_name: Was ist ein String
+files:
+- name: task.py
+  visible: true
+  text: "# Ermittlung des Datentypes einer Zeichenkette\nvalue_1 = 'abc'\nprint(type(value_1))\n\
+    # Der Begriff Klasse kann als Synonym für Datentyp betrachtet werden\n\n\n# Sonderzeichen\
+    \ mittels Escapenotation\nvalue_2 = '\\\" Hochkomma doppelt, \\' Hochkomma einfach'\n\
+    print(value_2)\n\n# Mehrzeiliger String Variante 1\nprint('''Dieser String \n\
+    wird auf mehreren Zeilen \ngeschrieben und im Terminal angezeigt.''')\n\n# Mehrzeiliger\
+    \ String Variante 1\nprint('Dies ist ein einzeiliger String \\\nwelcher auf mehrere\
+    \ Zeilen \\\naufgeteilt wird')\n\n\n"
+  learner_created: false
+status: Unchecked
+record: -1
+post_submission_on_open: true

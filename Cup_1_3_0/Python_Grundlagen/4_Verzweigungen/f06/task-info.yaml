@@ -1,0 +1,26 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: <
+  is_correct: false
+- text: <=
+  is_correct: false
+- text: ==
+  is_correct: false
+- text: '>='
+  is_correct: true
+- text: '!='
+  is_correct: true
+- text: '>'
+  is_correct: true
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: question.py
+  visible: true
+  text: |2+
+
+  learner_created: false
+status: Unchecked
+record: -1
+custom_name: Frage 6

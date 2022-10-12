@@ -1,0 +1,11 @@
+type: theory
+custom_name: Wiese 3
+files:
+- name: playground_1_3.py
+  visible: true
+  text: |
+    from microbit_wings import *  # importiere die benötigten Bibliotheken
+  learner_created: false
+status: Unchecked
+record: -1
+post_submission_on_open: true

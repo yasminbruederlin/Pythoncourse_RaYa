@@ -1,0 +1,21 @@
+type: theory
+files:
+- name: exercise_pygame_microbit.py
+  visible: true
+  text: |-
+    import pygame  # import Pygame Paket
+    from microbit_wings import *  # importiere die benötigten Bibliotheken für den micro:bit
+    import os  # import Paket Betriebssystem
+    import sys  # import Paket System
+
+    print('your solution')
+  learner_created: false
+- name: img/solution.png
+  visible: false
+  learner_created: false
+- name: camtasia/camtasia.gif
+  visible: false
+  learner_created: false
+status: Unchecked
+record: -1
+post_submission_on_open: true

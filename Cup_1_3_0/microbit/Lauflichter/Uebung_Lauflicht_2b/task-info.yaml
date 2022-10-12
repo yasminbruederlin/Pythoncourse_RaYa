@@ -1,0 +1,19 @@
+type: theory
+custom_name: Übung Lauflicht 2b
+files:
+- name: exercise_for_loop.py
+  visible: true
+  text: |-
+    from microbit_wings import *  # importiere die benötigten Bibliotheken
+
+    print('your solution')
+  learner_created: false
+- name: img/exercise.gif
+  visible: false
+  learner_created: false
+- name: img/solution.png
+  visible: false
+  learner_created: false
+status: Unchecked
+record: -1
+post_submission_on_open: true

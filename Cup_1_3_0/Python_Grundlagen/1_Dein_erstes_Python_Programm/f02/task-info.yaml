@@ -1,0 +1,18 @@
+type: output
+custom_name: Frage 2
+files:
+- name: output.txt
+  visible: true
+  text: |
+    Hallo, Welt
+  learner_created: false
+- name: question.py
+  visible: true
+  text: |
+    # schreibe deinen Code!
+  learner_created: false
+- name: img/vimeo_pycharm_entwicklungsumgebung.png
+  visible: false
+  learner_created: false
+status: Unchecked
+record: -1

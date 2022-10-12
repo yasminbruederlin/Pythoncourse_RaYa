@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: Die Zeile welche den Fehler verusacht ist nicht bekannt
+  is_correct: false
+- text: Die Variable Hallo ist nicht definiert
+  is_correct: true
+- text: Demzufolge ist die Variable Welt auch nicht definiert
+  is_correct: true
+- text: Alles ist in Ordnung
+  is_correct: false
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: question.py
+  visible: true
+  text: print(Hallo, Welt)
+  learner_created: false
+status: Unchecked
+record: -1
+custom_name: Frage 1

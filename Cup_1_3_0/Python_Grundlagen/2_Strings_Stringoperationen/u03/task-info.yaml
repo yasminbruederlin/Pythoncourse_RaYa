@@ -1,0 +1,53 @@
+type: edu
+custom_name: Übung 3 Strings teilen
+files:
+- name: tests.py
+  visible: false
+  text: |
+    from test_helper import run_common_tests, failed, passed, import_task_file, get_answer_placeholders
+
+
+    def test_value():
+        file = import_task_file()
+        if hasattr(file, 'python') and file.python == 'Python':
+            passed()
+        else:
+            failed('Überprüfe die Indizen die du in der Teilung benutzt hast.')
+
+
+    def test_monty_python():
+        window = get_answer_placeholders()[0]
+        if 'monty_python' in window:
+            passed()
+        else:
+            failed('benutze die Stringteilung')
+
+
+    if __name__ == '__main__':
+        run_common_tests()
+        test_value()
+        test_monty_python()
+  learner_created: false
+- name: slicing.py
+  visible: true
+  placeholders:
+  - offset: 160
+    length: 13
+    placeholder_text: schreibe hier
+    initial_state:
+      length: 13
+      offset: 160
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: monty_python[6:]
+  text: |
+    monty_python = 'Monty Python'
+    monty = monty_python[:5]      # hier wird nur ein Index benötigt, dies ist äquivalent zu monty_python[0:5]
+    print(monty)
+
+    python = schreibe hier
+    print(python)
+  learner_created: false
+status: Unchecked
+record: -1

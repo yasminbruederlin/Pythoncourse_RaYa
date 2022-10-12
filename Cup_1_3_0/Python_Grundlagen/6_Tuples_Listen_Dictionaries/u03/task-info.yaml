@@ -1,0 +1,58 @@
+type: edu
+custom_name: Übung 3 Listenoperationen
+files:
+- name: tests.py
+  visible: false
+  text: |
+    from test_helper import run_common_tests, import_task_file, passed, failed, get_answer_placeholders
+
+
+    def test_value():
+        file = import_task_file()
+        if hasattr(file, 'animals') and 'Dinosaurier' in file.animals and not 'Dino' in file.animals:
+            passed()
+        else:
+            failed('ersetze \'Dino\' mit \'Dinosaurier\'')
+
+
+    def test_window():
+        window = get_answer_placeholders()[0]
+        if 'animals' in window and '[' in window:
+            passed()
+        else:
+            failed('ersetze \'Dino\' mit \'Dinosaurier\'')
+
+
+    if __name__ == '__main__':
+        run_common_tests()
+        test_value()
+        test_window()
+  learner_created: false
+- name: list_operations.py
+  visible: true
+  placeholders:
+  - offset: 252
+    length: 29
+    placeholder_text: Ersetzte Dino mit Dinosaurier
+    initial_state:
+      length: 29
+      offset: 252
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: animals[-1] = 'Dinosaurier'
+  text: |
+    animals = ['Elefant', 'Tiger', 'Affe', 'Giraffe']
+    print(animals)
+
+    animals += ['Hund', 'Katze']  # füge weitere Einträge in die Liste ein
+    print(animals)
+
+    animals.append('Dino')   # füge am Ende der Liste einen zusätzlichen Eintrag hinzu
+    print(animals)
+
+    Ersetzte Dino mit Dinosaurier
+    print(animals)
+  learner_created: false
+status: Unchecked
+record: -1

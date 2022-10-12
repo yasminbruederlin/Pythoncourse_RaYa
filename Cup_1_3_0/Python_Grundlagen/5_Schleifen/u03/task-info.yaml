@@ -1,0 +1,53 @@
+type: edu
+custom_name: Übung 3 break Schlüsselwort
+files:
+- name: break_keyword.py
+  visible: true
+  placeholders:
+  - offset: 336
+    length: 48
+    placeholder_text: beende die Schlaufe falls animal  gleich 'Tiger'
+    initial_state:
+      length: 48
+      offset: 336
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: animal == 'Tiger'
+  text: |
+    count = 0
+
+    while True:  # diese Kondition ist immer True
+        print(count)
+        count += 1
+        if count >= 5:
+            break  # beende die Schleife falls count >= 5
+
+
+    zoo = ['Löwe', 'Tiger', 'Elefant']
+    while True:  # diese Kondition ist immer True
+        animal = zoo.pop()  # extrahiere das letzte Element der Liste
+        print(animal)
+        if beende die Schlaufe falls animal  gleich 'Tiger':
+            break  # beende die Schleife
+  learner_created: false
+- name: tests.py
+  visible: false
+  text: |-
+    from test_helper import run_common_tests, passed, failed, get_answer_placeholders
+
+
+    def test_window():
+        window = get_answer_placeholders()[0]
+        if "Tiger" in window and "animal" in window:
+            passed()
+        else:
+            failed("benutze == zur Überprüfung ob animal gleich 'Elefant'")
+
+
+    if __name__ == '__main__':
+        run_common_tests()
+        test_window()
+  learner_created: false
+status: Unchecked
+record: -1

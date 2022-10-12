@@ -1,0 +1,47 @@
+type: edu
+custom_name: Übung 1 for Schleife
+files:
+- name: tests.py
+  visible: false
+  text: |
+    from test_helper import run_common_tests, failed, passed, get_answer_placeholders
+
+
+    def test_window():
+        window = get_answer_placeholders()[0]
+        if 'prime' in window and 'for ' in window and 'primes' in window and ' in ' in window:
+            passed()
+        else:
+            failed('Benutze einen for loop über alle Primzahlen.')
+
+
+    if __name__ == '__main__':
+        run_common_tests()
+        test_window()
+  learner_created: false
+- name: for_loop.py
+  visible: true
+  placeholders:
+  - offset: 250
+    length: 29
+    placeholder_text: Iteriere über alle primzahlen
+    initial_state:
+      length: 29
+      offset: 250
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: 'for prime in primes:'
+  text: |
+    for i in range(5):  # für jede Nummer in einer Skala von 0 - 4. range(5) gibt diese Liste zurück [0, 1, 2, 3, 4]
+        print(i)  # Diese Zeile wird 5 mal ausgeführt. Beim ersten mal ist i = 0, danach 1, 2, ....
+
+    print('------')
+
+    primes = [2, 3, 5, 7]
+
+    Iteriere über alle primzahlen
+        print(prime)
+  learner_created: false
+status: Unchecked
+record: -1

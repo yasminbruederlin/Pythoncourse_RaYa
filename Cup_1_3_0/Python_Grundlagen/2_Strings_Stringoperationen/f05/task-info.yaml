@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: String 3210
+  is_correct: false
+- text: 3210
+  is_correct: false
+- text: Führt zu einem 'TypeError'
+  is_correct: true
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: question.py
+  visible: true
+  text: |2+
+
+  learner_created: false
+status: Unchecked
+record: -1
+custom_name: Frage 5

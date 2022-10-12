@@ -1,0 +1,58 @@
+type: edu
+custom_name: Übung 4 Listeneinträge
+files:
+- name: tests.py
+  visible: false
+  text: |
+    from test_helper import run_common_tests, failed, passed, import_task_file, get_answer_placeholders
+
+
+    def test_value():
+        file = import_task_file()
+        if hasattr(file, 'animals') and not file.animals:
+            passed()
+        else:
+            failed('leere die Liste')
+
+
+    def test_window():
+        window = get_answer_placeholders()[0]
+        if 'animals' in window:
+            passed()
+        else:
+            failed('leere die Liste')
+
+
+    if __name__ == '__main__':
+        run_common_tests('benutze liste = []')
+        test_window()
+        test_value()
+  learner_created: false
+- name: list_items.py
+  visible: true
+  placeholders:
+  - offset: 304
+    length: 15
+    placeholder_text: Leere die Liste
+    initial_state:
+      length: 15
+      offset: 304
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: animals = []
+  text: |
+    animals = ['Elefant', 'Tiger', 'Affe', 'Giraffe', 'Hund', 'Katze']
+    print(animals)
+
+    animals[1:3] = ['Papagei']    # ersetze 2 Einträge -- 'Tiger' und 'Affe' mit einem Eintrag -- 'Papagei'
+    print(animals)
+
+    animals[1:3] = []     # entferne 2 Einträge -- 'Papagei' und 'Giraffe' von der Liste
+    print(animals)
+
+    Leere die Liste
+    print(animals)
+  learner_created: false
+status: Unchecked
+record: -1

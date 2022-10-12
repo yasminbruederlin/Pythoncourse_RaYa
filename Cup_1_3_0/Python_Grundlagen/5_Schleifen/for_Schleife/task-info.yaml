@@ -1,0 +1,27 @@
+type: theory
+custom_name: Die for Schleife
+files:
+- name: task.py
+  visible: true
+  text: |+
+    # for Schlaufe
+    for i in range(0, 4, 1):
+        print(i)
+
+    print('--------')
+
+    # Veränderung der range Funktion
+    for i in range(0, 10, 2):
+        print(i)
+
+    print('--------')
+
+    # Veränderung der range Funktion
+    for i in range(10, 0, -1):
+        print(i)
+
+
+  learner_created: false
+status: Unchecked
+record: -1
+post_submission_on_open: true

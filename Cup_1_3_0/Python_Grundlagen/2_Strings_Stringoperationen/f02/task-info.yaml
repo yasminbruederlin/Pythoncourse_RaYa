@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: string = 'Homer Simpson'
+  is_correct: false
+- text: string = 'HomerSimpson'
+  is_correct: true
+- text: string = 'homersimpson'
+  is_correct: false
+- text: string = 'homer simpson'
+  is_correct: false
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: question.py
+  visible: true
+  text: print(Hallo, Welt)
+  learner_created: false
+status: Unchecked
+record: -1
+custom_name: Frage 2

@@ -1,0 +1,45 @@
+type: theory
+files:
+- name: img/microbit.png
+  visible: false
+  learner_created: false
+- name: img/led_array_indexierung_bw.png
+  visible: false
+  learner_created: false
+- name: img/Einleitung.png
+  visible: false
+  learner_created: false
+- name: introduction.py
+  visible: true
+  text: |-
+    from microbit_wings import *  # importiere die benötigten Bibliotheken
+
+    microbit.open()  # öffne den Kommunikationskanal zum Microbit
+
+    microbit.leds_clear_all()  # lösche alle Leuchtdioden
+
+    microbit.leds[0][0] = True  # setze Leuchtdiode in Zeile 0, Spalte 0
+
+    microbit.update()  # aktualisiere den Microbit
+
+    sleep(0.5)  # warte
+
+    microbit.leds[2][3] = True  # setze Leuchtdiode in Zeile 2, Spalte 3
+
+    microbit.update()  # aktualisiere den Microbit
+
+    sleep(0.5)  # warte
+
+    microbit.leds_clear_all_update()  # lösche alle LEDs und aktualisiere den Microbit
+
+    microbit.close()  # schliesse den Kommunikationskanal zum Microbit
+  learner_created: false
+- name: img/introduction.png
+  visible: false
+  learner_created: false
+- name: img/introduction.gif
+  visible: false
+  learner_created: false
+status: Unchecked
+record: -1
+post_submission_on_open: true

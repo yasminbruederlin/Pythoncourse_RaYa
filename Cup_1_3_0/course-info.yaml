@@ -1,0 +1,12 @@
+title: CuP_1_3_0
+language: English
+summary: Wings Lernmedien, Computertechnik und Programmierung, Autor Pascal Helfenstein
+programming_language: Python
+content:
+- Lernumgebung
+- Python_Grundlagen
+- microbit
+- Pygame
+- Spielwiese
+mode: Study
+solutions_hidden: true

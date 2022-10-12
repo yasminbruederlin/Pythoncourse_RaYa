@@ -1,0 +1,75 @@
+type: edu
+custom_name: Übung 1 Funktionen
+files:
+- name: tests.py
+  visible: false
+  text: |
+    from test_helper import run_common_tests, failed, get_answer_placeholders, passed
+
+
+    def test_window():
+        window = get_answer_placeholders()[0]
+        if 'fun' in window:
+            passed()
+        else:
+            failed('Bennene deine Funktion \'fun\'')
+
+
+    def test_window1():
+        window = get_answer_placeholders()[0]
+        if 'def ' in window:
+            passed()
+        else:
+            failed('Benutze \'def\' um eine Funktion zu erstellen')
+
+
+    def test_column():
+        window = get_answer_placeholders()[0]
+        if ':' in window:
+            passed()
+        else:
+            failed('Vergiss den Doppeltpunkt am Eder der Zeile nicht')
+
+
+    if __name__ == '__main__':
+        run_common_tests()
+        test_window()
+        test_column()
+        test_window1()
+  learner_created: false
+- name: functions.py
+  visible: true
+  placeholders:
+  - offset: 276
+    length: 48
+    placeholder_text: definiere eine neue Funktion mit den namen 'fun'
+    initial_state:
+      length: 48
+      offset: 276
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: 'def fun():'
+  text: |
+    def hello_world():  # Funktion mit dem Namen hallo_welt
+        print('Hallo, Welt!')
+
+
+    for i in range(5):
+        hello_world()  # rufe die Funktion hallo_welt 5 x auf
+
+
+    print('Ich will eine Funktion sein')
+    print('Ich will eine Funktion sein')
+    print('Ich will eine Funktion sein')
+
+
+    definiere eine neue Funktion mit den namen 'fun'
+        print('Ich bin eine Funktion!')
+
+
+    for i in range(10):
+        fun()
+  learner_created: false
+status: Unchecked
+record: -1

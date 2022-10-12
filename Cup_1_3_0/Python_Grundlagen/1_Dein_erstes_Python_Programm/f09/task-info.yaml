@@ -1,0 +1,15 @@
+type: output
+custom_name: Frage 9
+files:
+- name: output.txt
+  visible: false
+  text: |
+    Python macht Spass!
+  learner_created: false
+- name: question.py
+  visible: true
+  text: |
+    # Schreibe hier deinen Code!
+  learner_created: false
+status: Unchecked
+record: -1

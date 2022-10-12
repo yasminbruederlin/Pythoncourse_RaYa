@@ -1,0 +1,54 @@
+type: edu
+custom_name: Übung 2 Liste
+files:
+- name: tests.py
+  visible: false
+  text: |
+    from test_helper import run_common_tests, get_answer_placeholders, passed, failed, get_file_output, test_file_importable
+
+
+    def test_value():
+        output = get_file_output()[3]
+        if '[4, 9, 16]' in output:
+            passed()
+        else:
+            failed('Benutze die Listenteilung Liste[index1:index2].')
+
+
+    def test_window():
+        window = get_answer_placeholders()[0]
+        if 'squares' in window and '[' in window and ']' in window and ':' in window:
+            passed()
+        else:
+            failed('Benutze die Listenteilung Liste[index1:index2].')
+
+
+    if __name__ == '__main__':
+        test_file_importable()
+        test_value()
+        test_window()
+        run_common_tests('Benutze die Listenteilung Liste[index1:index2].')
+  learner_created: false
+- name: lists.py
+  visible: true
+  placeholders:
+  - offset: 312
+    length: 13
+    placeholder_text: schreibe hier
+    initial_state:
+      length: 13
+      offset: 312
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: squares[1:4]
+  text: |
+    squares = [1, 4, 9, 16, 25]   # erstellen einer neuen Liste
+    print(squares)  # printe alle Elemente der Liste
+    print(squares[0])  # printe das erste Element der Liste => der erste Eintrag beginnt bei 0
+    print(squares[-1])  # printe das letzte Element der Liste => der letzte Eintrag wird mit -1 angesprochen
+
+    print(schreibe hier)
+  learner_created: false
+status: Unchecked
+record: -1

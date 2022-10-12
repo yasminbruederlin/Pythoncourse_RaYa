@@ -1,0 +1,22 @@
+type: theory
+custom_name: Microbit Firmware
+files:
+- name: task.py
+  visible: true
+  text: print('Microbit Firmware')
+  learner_created: false
+- name: img/microbit_hardware.jpg
+  visible: false
+  learner_created: false
+- name: img/connection_uart_system_bw.png
+  visible: false
+  learner_created: false
+- name: img/vimeo_mac_installation_firmware_microbit.png
+  visible: false
+  learner_created: false
+- name: img/vimeo_win_installation_firmware_microbit.png
+  visible: false
+  learner_created: false
+status: Unchecked
+record: -1
+post_submission_on_open: true

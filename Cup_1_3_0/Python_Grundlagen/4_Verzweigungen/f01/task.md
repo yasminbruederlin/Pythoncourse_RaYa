@@ -1,0 +1,3 @@
+# Frage 1
+
+Ein "Boolean"-Ausdruck kann ...

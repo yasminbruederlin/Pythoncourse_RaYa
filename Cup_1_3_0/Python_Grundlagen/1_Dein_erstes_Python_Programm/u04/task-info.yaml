@@ -1,0 +1,59 @@
+type: edu
+custom_name: Übung 4 Variablen Zuweisung
+files:
+- name: variable.py
+  visible: true
+  placeholders:
+  - offset: 350
+    length: 18
+    placeholder_text: ändere diesen Wert
+    initial_state:
+      length: 18
+      offset: 350
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: 123
+  text: |
+    a = 3  # Zuweisung der Variablen x mit dem Wert 3
+    b = 'gugus'  # Zuweisung der Variable y mit der Zeichenkette 'gugus'
+
+    print('a = ' + str(a))  # der Ausdruck str(a) wird später im Kurs erläutert. Der aktuelle Gebrauch konvertiert
+    print('b = ' + b)       # die Variable a in einen String
+
+    hello = 'Hallo Welt'
+    print('hallo = ' + str(hello))
+
+    hello = ändere diesen Wert
+    print('hallo = ' + str(hello))
+  learner_created: false
+- name: tests.py
+  visible: false
+  text: |
+    from test_helper import run_common_tests, failed, passed, import_task_file, get_answer_placeholders
+
+
+    def test_task_window():
+        window = get_answer_placeholders()[0]
+        if 'ändere diesen Wert' == window:
+            failed('Du solltest die Variablen \'hello\' neu definieren.')
+        else:
+            passed()
+
+
+    def test_value():
+        file = import_task_file()
+
+        if file.greetings == 'hallo':
+            failed('Du solltest der Variablen einen anderen Wert zuweisen')
+        else:
+            passed()
+
+
+    if __name__ == '__main__':
+        test_task_window()
+        run_common_tests('Du solltest die Variablen \'hello\' neu definieren.')
+        test_value()
+  learner_created: false
+status: Unchecked
+record: -1

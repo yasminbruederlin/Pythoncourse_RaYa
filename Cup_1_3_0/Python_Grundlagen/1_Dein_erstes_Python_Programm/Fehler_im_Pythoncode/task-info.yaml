@@ -1,0 +1,14 @@
+type: theory
+custom_name: Fehler im Pythoncode
+files:
+- name: task1.py
+  visible: true
+  text: print('Hallo Welt)
+  learner_created: false
+- name: task2.py
+  visible: true
+  text: print(Hallo, Welt)
+  learner_created: false
+status: Unchecked
+record: -1
+post_submission_on_open: true

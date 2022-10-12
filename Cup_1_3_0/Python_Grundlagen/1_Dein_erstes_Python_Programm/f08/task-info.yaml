@@ -1,0 +1,24 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: up_
+  is_correct: true
+- text: _down
+  is_correct: true
+- text: 2big
+  is_correct: false
+- text: _2big
+  is_correct: true
+- text: down-under
+  is_correct: false
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: question.py
+  visible: true
+  text: |
+    # Teste die Variablenbezeichnungen im interaktiven Pythonfenster!
+  learner_created: false
+status: Unchecked
+record: -1
+custom_name: Frage 8

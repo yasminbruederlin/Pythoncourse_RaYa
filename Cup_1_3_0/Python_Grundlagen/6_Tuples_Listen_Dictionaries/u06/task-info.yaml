@@ -1,0 +1,44 @@
+type: edu
+custom_name: Übung 6 Dictionary keys() und values()
+files:
+- name: tests.py
+  visible: false
+  text: |
+    from test_helper import run_common_tests, passed, failed, get_answer_placeholders
+
+
+    def test_window():
+        window = get_answer_placeholders()[0]
+        if 'phone_book' in window and 'values()' in window:
+            passed()
+        else:
+            failed('benutze die values() Methode')
+
+
+    if __name__ == '__main__':
+        run_common_tests()
+        test_window()
+  learner_created: false
+- name: dict_key_value.py
+  visible: true
+  placeholders:
+  - offset: 241
+    length: 26
+    placeholder_text: Telefonbuch Werte / Values
+    initial_state:
+      length: 26
+      offset: 241
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: phone_book.values()
+  text: |
+    phone_book = {'John': '077 123 56 98', 'Jane': '079 857 24 74', 'Jerard': '078 985 36 74'}    # 'John', 'Jane' und 'Jerard' sind die Schlüssel / Keys und die Nummern sind die Werte / Values
+    print(phone_book)
+
+    print(phone_book.keys())
+
+    print(Telefonbuch Werte / Values)
+  learner_created: false
+status: Unchecked
+record: -1

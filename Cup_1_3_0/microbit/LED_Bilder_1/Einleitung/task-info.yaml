@@ -1,0 +1,43 @@
+type: theory
+files:
+- name: introduction.py
+  visible: true
+  text: |
+    print('LED Bilder 1: Einführung')
+  learner_created: false
+- name: img/animals.png
+  visible: false
+  learner_created: false
+- name: img/arrows.png
+  visible: false
+  learner_created: false
+- name: img/clock.png
+  visible: false
+  learner_created: false
+- name: img/faces.png
+  visible: false
+  learner_created: false
+- name: img/figures.png
+  visible: false
+  learner_created: false
+- name: img/miscellaneous.png
+  visible: false
+  learner_created: false
+- name: img/music.png
+  visible: false
+  learner_created: false
+- name: img/numbers.png
+  visible: false
+  learner_created: false
+- name: img/yes_no.png
+  visible: false
+  learner_created: false
+- name: img/led_array_indexierung_bw.png
+  visible: false
+  learner_created: false
+- name: img/microbit.png
+  visible: false
+  learner_created: false
+status: Unchecked
+record: -1
+post_submission_on_open: true

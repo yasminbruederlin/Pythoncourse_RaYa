@@ -1,0 +1,44 @@
+type: edu
+custom_name: Übung 2 Kommentare
+files:
+- name: comment.py
+  visible: true
+  placeholders:
+  - offset: 154
+    length: 29
+    placeholder_text: füge hier einen Kommentar ein
+    initial_state:
+      length: 29
+      offset: 154
+    initialized_from_dependency: false
+    selected: false
+    status: Unchecked
+    encrypted_possible_answer: Neuer Kommentar
+  text: |
+    # Dies ist ein Kommentar in der  kommentare.py Datei
+    print("Hallo!")  # dieser Kommentar ist auf der zweiten Zeile
+
+    print("# dies ist kein Kommentar")
+
+    # füge hier einen Kommentar ein
+  learner_created: false
+- name: tests.py
+  visible: false
+  text: |
+    from test_helper import run_common_tests, failed, passed, get_answer_placeholders
+
+
+    def test_initial():
+        window = get_answer_placeholders()[0]
+        if window == 'füge hier einen Kommentar ein':
+            failed('Du solltest die Datei bearbeiten')
+        else:
+            passed()
+
+
+    if __name__ == '__main__':
+        run_common_tests('Gib deinen Namen ein')
+        test_initial()
+  learner_created: false
+status: Unchecked
+record: -1

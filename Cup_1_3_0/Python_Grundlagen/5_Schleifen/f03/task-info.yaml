@@ -1,0 +1,18 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: 9
+  is_correct: false
+- text: 10
+  is_correct: false
+- text: 11
+  is_correct: true
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: question.py
+  visible: true
+  learner_created: false
+status: Unchecked
+record: -1
+custom_name: Frage 3

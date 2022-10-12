@@ -1,0 +1,17 @@
+type: theory
+files:
+- name: exercise_drawing_objects_1.py
+  visible: true
+  text: |
+    import pygame  # import Pygame Paket
+    import os  # import Paket Betriebssystem
+    import sys  # import Paket System
+
+    print('your solution')
+  learner_created: false
+- name: img/solution.png
+  visible: false
+  learner_created: false
+status: Unchecked
+record: -1
+post_submission_on_open: true

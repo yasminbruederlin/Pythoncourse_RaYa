@@ -1,0 +1,16 @@
+type: theory
+custom_name: Übung Taster zählen
+files:
+- name: exercise_button_count.py
+  visible: true
+  text: |-
+    from microbit_wings import *  # importiere die benötigten Bibliotheken
+
+    print('your solution')
+  learner_created: false
+- name: img/camtasia.gif
+  visible: false
+  learner_created: false
+status: Unchecked
+record: -1
+post_submission_on_open: true

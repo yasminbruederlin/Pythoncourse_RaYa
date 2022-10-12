@@ -1,0 +1,16 @@
+type: output
+custom_name: Frage 3
+files:
+- name: output.txt
+  visible: false
+  text: |
+    Spock: "Lebe lang und glücklich"
+  learner_created: false
+- name: question.py
+  visible: true
+  text: |-
+    spock = '......'
+    print(spock)
+  learner_created: false
+status: Unchecked
+record: -1

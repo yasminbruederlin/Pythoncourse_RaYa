@@ -1,0 +1,31 @@
+type: theory
+custom_name: Lehrmittel, Videos, Cheatsheet, Musterlösungen
+files:
+- name: task.py
+  visible: true
+  text: print('task')
+  learner_created: false
+- name: img/vimeo_praesentation_installation.png
+  visible: false
+  learner_created: false
+- name: img/vimeo_praesentation_microbit.png
+  visible: false
+  learner_created: false
+- name: img/vimeo_praesentation_pygame_projekt.png
+  visible: false
+  learner_created: false
+- name: img/vimeo_praesentation_python_grundlagen.png
+  visible: false
+  learner_created: false
+- name: img/vimeo_praesentation_struktogramme.png
+  visible: false
+  learner_created: false
+- name: img/wings_cup_link.png
+  visible: false
+  learner_created: false
+- name: img/vimeo_praesentation_tipps_und_trick_faq.png
+  visible: false
+  learner_created: false
+status: Unchecked
+record: -1
+post_submission_on_open: true
