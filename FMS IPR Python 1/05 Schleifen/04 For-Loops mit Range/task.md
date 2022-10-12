@@ -7,7 +7,7 @@ Wenn wir z.B. mit einem for-Loop sechsmal die Meldung "Ich lerne gerade Loops!" 
 
 ```python
 for <temporäre Variable> in <Liste der Länge 6>:
-  print("Ich lerne gerade Loops!")
+  print("Ich lerne gerade 01 Loops!")
 ```
 
 Beachten Sie, dass wir eine Liste mit einer Länge von sechs durchlaufen müssen, aber es ist uns nicht unbedingt wichtig, 
@@ -28,7 +28,7 @@ Wir können das range-Objekt direkt in unseren for-Loops als "Liste" verwenden, 
 
 ```python
 for temp in range(6):
-  print("Ich lerne gerade Loops!")
+  print("Ich lerne gerade 01 Loops!")
 ```
 
 Printed folgendes:

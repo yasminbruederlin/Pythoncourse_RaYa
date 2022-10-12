@@ -9,8 +9,6 @@ options:
   is_correct: false
 - text: string = 'homer simpson'
   is_correct: false
-message_correct: Congratulations!
-message_incorrect: Incorrect solution
 files:
 - name: question.py
   visible: true

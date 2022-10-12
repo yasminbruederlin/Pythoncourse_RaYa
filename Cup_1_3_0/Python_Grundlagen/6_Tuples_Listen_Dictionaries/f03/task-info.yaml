@@ -7,8 +7,6 @@ options:
   is_correct: false
 - text: Listen können sämtliche Datentypen beinhalten. Tuples nur Integer und Strings
   is_correct: false
-message_correct: Congratulations!
-message_incorrect: Incorrect solution
 files:
 - name: question.py
   visible: true

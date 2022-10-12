@@ -9,8 +9,6 @@ options:
   is_correct: true
 - text: and
   is_correct: false
-message_correct: Congratulations!
-message_incorrect: Incorrect solution
 files:
 - name: question.py
   visible: true

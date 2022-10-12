@@ -9,8 +9,6 @@ options:
   is_correct: false
 - text: nur einen der beiden Werte True oder False annehmen
   is_correct: true
-message_correct: Congratulations!
-message_incorrect: Incorrect solution
 files:
 - name: question.py
   visible: true

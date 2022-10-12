@@ -5,8 +5,6 @@ options:
   is_correct: true
 - text: '|-42.42|'
   is_correct: false
-message_correct: Congratulations!
-message_incorrect: Incorrect solution
 files:
 - name: question.py
   visible: true

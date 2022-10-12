@@ -7,8 +7,6 @@ options:
   is_correct: true
 - text: 1 2 3 4 5
   is_correct: false
-message_correct: Congratulations!
-message_incorrect: Incorrect solution
 files:
 - name: question.py
   visible: true

@@ -45,7 +45,7 @@ first = "Ich bin heute"
 age = 17
 second = "Jahre alt!"
 
-# Verkettung von Strings mit einer Zahl
+# Verkettung von 04 Strings mit einer Zahl
 text = first + " " + str(age) + " " + second
 
 # printed "Ich bin heute 17 Jahre alt!

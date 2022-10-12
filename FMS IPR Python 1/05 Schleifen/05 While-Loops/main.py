@@ -5,9 +5,9 @@ if __name__ == "__main__":
     print("While-Loop beginnt")
     while count <= 3:
       # Schleifenkörper
-      # Print falls die Bedingung immer noch wahr ist.
+      # 02 Print falls die Bedingung immer noch wahr ist.
       print("Loop Iteration: count <= 3 ist immer noch wahr.")
-      # Print der aktuelle Wert von count
+      # 02 Print der aktuelle Wert von count
       print("Count ist momentan " + str(count))
       # Erhöhen von count
       count += 1

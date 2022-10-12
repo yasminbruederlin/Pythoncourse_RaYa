@@ -7,16 +7,16 @@ Python bietet eine Kurzform für die Aktualisierung von Variablen. Wenn Sie eine
 
   
 ```python
-# Zuerst weisen wir der Variablen einen Startwert zu.
+# Zuerst weisen wir der 05 Variablen einen Startwert zu.
 nr_hiked_km = 12
 
-# Dann verändern wir den Wert der Variablen.
+# Dann verändern wir den Wert der 05 Variablen.
 # Nehmen wir an, dass wir 2 weitere Kilometer 
 # gewandert sind.
 nr_hiked_km += 2
 
 # Der neue Wert ist der alte Wert
-# plus die Zahl nach dem Plus-Gleich-Zeichen.
+# plus die Zahl nach dem 06 Plus-Gleich-Zeichen.
 # printed "14"
 print(nr_hiked_km)
 ```

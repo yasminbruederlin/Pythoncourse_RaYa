@@ -27,7 +27,7 @@ Wir werden oft feststellen, dass eine 2D Liste eine sehr gute Struktur für die 
 wie bei Spielen wie Tic-Tac-Toe ist.
 
 ```python
-#Eine 2d-Liste mit drei Listen in jedem der Indizes. 
+#Eine 2d-Liste mit drei 04 01 Listen in jedem der 07 Indizes. 
 tic_tac_toe = [
             [["X"],["O"],["X"]], 
             [["O"],["X"],["O"]], 
