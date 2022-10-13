@@ -1,4 +1,4 @@
-type: theory
+type: edu
 files:
 - name: main.py
   visible: true
@@ -6,3 +6,5 @@ files:
   visible: false
 - name: tests/output.txt
   visible: false
+- name: datatypes_meme.jpeg
+  visible: true
