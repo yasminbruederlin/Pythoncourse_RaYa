@@ -8,3 +8,5 @@ files:
   visible: true
 - name: output.png
   visible: true
+- name: magic.jpg
+  visible: true
