@@ -1,6 +1,7 @@
 Loops
 ======
 
+
 In unserem Alltag neigen wir dazu, viele Prozesse zu wiederholen, ohne es zu merken.
 
 Wenn wir zum Beispiel ein leckeres Rezept kochen wollen, müssen wir unsere Zutaten vorbereiten, indem wir sie zerkleinern. 
@@ -15,7 +16,7 @@ Wenn wir unsere Zerkleinerungsaufgabe in eine Reihe von drei kleineren Schritten
 3. Eine **Endbedingung**: Wir sehen, dass wir keine Zutaten mehr zu hacken haben und hören auf.
 
 Beim Programmieren wird dieser Prozess, der eine Initialisierung, Wiederholungen und eine Endbedingung beinhaltet, **Loop** 
-genannt. In einem Loop wiederholen wir also Aufgaben. Diesen Prozess nennen wir **Iteration**.
+genannt. In einem Loop führen wir Aufgaben aus, welche sich wiederholen. Diesen Prozess nennen wir **Iteration**.
 
 In Python gibt es zwei Arten von Iterationen:
 
