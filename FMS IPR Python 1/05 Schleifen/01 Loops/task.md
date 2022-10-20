@@ -40,4 +40,6 @@ In dieser Lektion lernen wir, wie wir mit Python sowohl bestimmte als auch unbes
 <span style="color:turquoise;font-weight:700;font-size:25px">
 Aufgabe
 </span>
-<br> Hacken Sie alle Zutaten der Zutatenliste. Sie können dazu mit Indexierung auf die einzelnen Elemente zugreiffen und diese mit `print( ... + " hacken") ausgeben. 
+
+
+Hacken Sie alle Zutaten der Zutatenliste im Pythonprogramm. Sie können dazu mit Indexierung auf die einzelnen Elemente zugreiffen und diese mit `print( ... + " hacken")` ausgeben. 
