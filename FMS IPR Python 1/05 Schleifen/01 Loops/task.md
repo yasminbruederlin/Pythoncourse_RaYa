@@ -42,4 +42,4 @@ Aufgabe
 </span>
 
 
-Hacken Sie alle Zutaten der Zutatenliste im Pythonprogramm. Sie können dazu mit Indexierung auf die einzelnen Elemente zugreiffen und diese mit `print( ... + " hacken")` ausgeben. 
+Hacken Sie alle Zutaten der Zutatenliste im Pythonprogramm. Sie können dazu mit Indexierung auf die einzelnen Elemente der Liste zugreiffen und diese mit `print( ... + " hacken")` ausgeben. 

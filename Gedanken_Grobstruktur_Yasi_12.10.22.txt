@@ -22,6 +22,7 @@ Listen:
 	- 2D Listen als freiwillige Vertiefung?
 
 Schleifen (turtle integrieren?)
+	- While-Schleife vor For-Schleife? 
 	- Endlosschleifen: Hint2 und alles danach.. weg?  
 	- Verschachtelte Loops als freiwillige Vertiefung?
 

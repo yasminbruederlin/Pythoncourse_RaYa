@@ -1,4 +1,4 @@
-Loops 2.0
+Loops 2.0 - überflüssiger Abschnitt?
 ===========
 
 Bevor wir unsere eigenen Loops erstellen, wollen wir die Motivation dahinter kennenlernen. Dafür betrachten wir ein Beispiel
@@ -35,7 +35,8 @@ Wenn wir uns aber nun vorstellen, dass die Liste 10 oder 24601 oder ... 100.000.
 In diesem Fall würde es Ewigkeiten dauern, bis wir alle print Befehle geschrieben hätten. Zudem würden wir wahrscheinlich
 noch etliche Fehler begehen, indem wir uns vertippen.
 
+<span style="color:turquoise;font-weight:700;font-size:25px">
 Aufgabe
-----------
+</span>
 
-1. Verwenden Sie den `print()` Befehl um 10-mal `"This can be so much easier with loops!"` zu printen.
+Verwenden Sie den `print()` Befehl um 10-mal `"This can be so much easier with loops!"` zu printen.
